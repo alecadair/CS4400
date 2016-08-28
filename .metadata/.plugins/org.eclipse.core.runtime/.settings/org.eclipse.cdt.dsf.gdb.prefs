@@ -1,0 +1,3 @@
+defaultGdbCommand=/usr/local/bin/gdb-7.11.1
+eclipse.preferences.version=1
+enablePrettyPrinting=false

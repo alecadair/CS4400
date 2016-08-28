@@ -1,0 +1,7 @@
+15:01:32 **** Clean-only build of configuration Debug for project Matchlab ****
+make clean 
+rm -rf  ./matchlab.o  ./matchlab.d  Matchlab
+ 
+
+15:01:33 Build Finished (took 129ms)
+

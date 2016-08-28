@@ -1,0 +1,22 @@
+16:06:59 **** Clean-only build of configuration Debug for project Matchlab1 ****
+make clean 
+rm -rf  ./matchlab.o  ./matchlab.d  Matchlab1
+ 
+16:07:20 **** Build of configuration Debug for project Matchlab1 ****
+make all 
+Building file: ../matchlab.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"matchlab.d" -MT"matchlab.o" -o "matchlab.o" "../matchlab.c"
+Finished building: ../matchlab.c
+ 
+Building target: Matchlab1
+Invoking: MacOS X C Linker
+gcc  -o "Matchlab1"  ./matchlab.o   
+Finished building target: Matchlab1
+ 
+16:07:32 **** Incremental Build of configuration Debug for project Matchlab1 ****
+make all 
+make: Nothing to be done for `all'.
+16:07:35 **** Incremental Build of configuration Debug for project Matchlab1 ****
+make all 
+make: Nothing to be done for `all'.
