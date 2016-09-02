@@ -1,0 +1,15 @@
+23:28:37 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall -c matchlab.c
+gcc -std=c11 -g -Wall -c matchlab.o -o matchlab
+gcc: warning: matchlab.o: linker input file unused because linking not done
+23:33:36 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  matchlab.o -o matchlab
+23:35:30 **** Clean-only build of configuration Debug for project MatchLab ****
+make clean 
+rm *.o matchlab
+23:35:37 **** Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+gcc -std=c11 -g -Wall  matchlab.o -o matchlab

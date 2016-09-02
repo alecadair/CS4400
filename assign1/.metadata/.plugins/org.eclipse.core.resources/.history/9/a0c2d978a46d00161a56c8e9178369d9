@@ -1,0 +1,5 @@
+CC = gcc
+FLAGS = -g -Wall
+
+matchlab : matchlab.o
+	$(CC) $(FLAGS) -o matchlab
