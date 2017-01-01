@@ -1,0 +1,325 @@
+#include <stdlib.h>
+#include <stdio.h>
+
+unsigned char isUpperCase(char letter){
+	if((letter < 'A') || (letter > 'Z')){
+		return 0;
+	}
+	else{
+		return 1;
+	}
+}
+
+unsigned char isDecimalDigit(char c){
+	if((c < '0')||(c > '9')){
+		return 0;
+	}
+	else{
+		return 1;
+	}
+}
+
+unsigned char checkOddChars(char* Uppers, char* toCheck ){
+    for(int i = 0; toCheck[i] != '\0'; i++){
+    		if(toCheck[i] != Uppers[i*2 + 1]){
+    			return 0;
+    		}
+    }
+	return 1;
+}
+
+char* convertTypeAString(const char* word){
+	char lastChar;
+	for(int i = 0; word[i] != '\0';i++){
+		if(word[i+1] == '\0'){
+			lastChar = word[i];
+		}
+	}
+	char* result = word;
+	for(int i = 0; word[i] != '\0'; i++){
+		result[i] = lastChar;
+	}
+	return result;
+}
+
+char* convertTypeBString(const char* word){
+	char result[1024];
+	for(int i = 0; word[i] != '\0'; i++){
+		result[i*2] = word[i];
+		int mod8 = i&7;
+		result[i*2 + 1] = (char)mod8 + '0';
+	}
+	return result;
+}
+
+const char* convertTypeCString(const char* word){
+	int resCount = 0;
+	char* result[1024];
+	for(int i = 0; word[i] != '\0'; i++){
+		if(word[i] != 'h'){
+			result[resCount] = word[i];
+			resCount++;
+		}
+	}
+	return result;
+}
+
+unsigned char checkArgument(const char* word, int MODE){
+	switch(MODE){
+				case 0:{
+					int letterCount = 0;
+					int eCounter = 0;
+					for(int j = 0; word[j] == 'e'; j++){
+						eCounter ++;
+						letterCount ++;
+					}
+					if((eCounter&1)){
+						return 0;
+					}
+					else{
+						int pCounter = 0;
+						for(int j = letterCount; word[j] == 'p'; j++){
+							pCounter ++;
+							letterCount++;
+						}
+						if(pCounter&1){
+							int upCounter = 0;
+							for(int j = letterCount; isUpperCase(word[j]); j++){
+								upCounter++;
+								letterCount++;
+							}
+							if(upCounter&1){
+								return 1;
+							}
+							else{
+								return 0;
+							}
+						}
+						else{
+							return 0;
+						}
+					}
+					break;
+				}
+				case 1:{
+					int eCounter = 0;
+					int letterCount = 0;
+					for(int j = 0; word[j] == 'e'; j++){
+						eCounter++;
+						letterCount++;
+					}
+					if(eCounter >= 4){
+						return 0;
+					}
+					else{
+						int upperCaseCount = 0;
+						char upperCases[1024];
+						for(int j = letterCount; isUpperCase(word[j]); j++){
+							upperCases[upperCaseCount] = word[j];
+							upperCaseCount++;
+							letterCount++;
+						}
+						if(upperCaseCount&1){
+							int wCounter = 0;
+							for(int j = letterCount; word[j] == 'w'; j++){
+								wCounter ++;
+								letterCount ++;
+							}
+							if((wCounter <= 0) ||(wCounter > 3)){
+								return 0;
+							}
+							else{
+								int digitCount = 0;
+								for(int j = letterCount; isDecimalDigit(word[j]); j++){
+									letterCount++;
+									digitCount++;
+								}
+								if((digitCount < 1)||(digitCount >3)){
+									return 0;
+								}
+								else{
+									char lastChars[1024];
+									int lastLetter = 0;
+									for(int j = letterCount; word[j] != '\0'; j++ ){
+										lastChars[lastLetter] = word[letterCount];
+										letterCount++;
+										lastLetter++;
+									}
+									if(checkOddChars(upperCases,lastChars)){
+										return 1;
+									}
+									else{
+										return 0;
+									}
+								}
+							}
+						}
+						else{
+							return 0;
+						}
+					}
+
+					break;
+				}
+				case 2:{
+					int letterCount = 0;
+					int aCounter = 0;
+					for(int j = letterCount; word[j] == 'a'; j++){
+						aCounter++;
+						letterCount++;
+					}
+					if(!(letterCount&1)){
+						return 0;
+					}
+					else{
+						int upperCaseCounter = 0;
+						char upperCases[1024];
+						for(int j = letterCount; isUpperCase(word[j]); j++){
+							upperCases[upperCaseCounter] = word[j];
+							upperCaseCounter ++;
+							letterCount ++;
+						}
+						if(!(upperCaseCounter&1)){
+							return 0;
+						}
+						else{
+							int nCounter = 0;
+							for(int j = letterCount; word[j] == 'n'; j++){
+								nCounter ++;
+								letterCount ++;
+							}
+							if((nCounter < 1) || (nCounter>3)){
+								return 0;
+							}
+							else{
+								char upperBuf[1024];
+								int upperCount = 0;
+								for(int j = letterCount; isUpperCase(word[j]); j++){
+									letterCount++;
+									upperBuf[upperCount] = word[j];
+									upperCount++;
+								}
+								upperBuf[upperCount] = '\0';
+								if(!checkOddChars(upperCases,upperBuf)){
+									return 0;
+								}
+								else{
+									int intCount = 0;
+									for(int j = letterCount; isDecimalDigit(word[j]); j++){
+										letterCount ++;
+										intCount ++;
+									}
+									if(word[letterCount] != '\0'){
+										return 0;
+									}
+									else{
+										if((intCount < 1)||(intCount > 3)){
+											return 0;
+										}
+										else{
+											return 1;
+										}
+									}
+								}
+							}
+						}
+					}
+					break;
+				}
+				default:{
+					break;
+				}
+			}
+	return 0;
+}
+
+int main(int argc, const char* argv[]){
+	int TMODE = 0;
+	int flagCount = 0;
+
+	//Mode = 0, corresponds to mode A
+	//Mode = 1, corresponds to mode B
+	//Mode = 2, corresponds to mode C
+	int MODE = 0;
+
+	if(argc < 2){
+		return 0;
+	}
+	for(int i = 1; i < 3; i++){
+		const char* arg = argv[i];
+		if(arg[0] != '-'){
+			break;
+		}
+		flagCount ++;
+			switch (arg[1]){
+				case 'a':{
+					MODE = 0;
+					printf("A MODE\n");
+					break;
+				}
+				case 'b':{
+					MODE = 1;
+					printf("B MODE\n");
+					break;
+				}
+				case 'c':{
+					MODE = 2;
+					printf("C MODE\n");
+					break;
+				}
+				case 't':{
+					TMODE = 1;
+					break;
+				}
+				default :{
+					break;
+				}
+			}
+	}
+	for(int i = flagCount+1; i < argc; i++){
+		const char* word = argv[i];
+		if(TMODE){
+			switch (MODE){
+				case 0 :{
+					if(checkArgument(word,MODE)){
+						char* convertedString = convertTypeAString(word);
+						printf(convertedString);
+						printf("\n");
+					}
+					break;
+				}
+				case 1 :{
+					if(checkArgument(word,MODE)){
+						char* convertedString = convertTypeBString(word);
+						printf(convertedString);
+						printf("\n");
+					}
+					break;
+				}
+				case 2:{
+					if(checkArgument(word,MODE)){
+						char* convertedString = convertTypeCString(word);
+						printf(convertedString);
+						printf("\n");
+					}
+					break;
+				}
+				default:{
+					break;
+				}
+			}
+		}
+		else{
+			if(checkArgument(word,MODE)){
+				printf("yes\n");
+			}
+			else{
+				printf("no\n");
+			}
+		}
+
+	}
+	return 0;
+}
+
+

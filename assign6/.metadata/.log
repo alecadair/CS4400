@@ -1,0 +1,10 @@
+!SESSION 2016-11-21 16:13:24.162 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-21 16:14:56.139
+!MESSAGE Indexed 'malloclab-handout' (8 sources, 85 headers) in 0.77 sec: 3,979 declarations; 9,237 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)

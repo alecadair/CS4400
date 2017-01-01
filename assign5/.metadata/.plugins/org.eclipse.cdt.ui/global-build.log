@@ -1,0 +1,2145 @@
+16:59:47 **** Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../csapp.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"csapp.d" -MT"csapp.o" -o "csapp.o" "../csapp.c"
+Finished building: ../csapp.c
+ 
+Building file: ../fail.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fail.d" -MT"fail.o" -o "fail.o" "../fail.c"
+Finished building: ../fail.c
+ 
+Building file: ../parse.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"parse.d" -MT"parse.o" -o "parse.o" "../parse.c"
+Finished building: ../parse.c
+ 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c:90:13: warning: ‘set_var’ defined but not used [-Wunused-function]
+ static void set_var(script_var *var, int new_value) {
+             ^
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+17:18:30 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c:101:13: warning: ‘set_var’ defined but not used [-Wunused-function]
+ static void set_var(script_var *var, int new_value) {
+             ^
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+17:21:44 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c:101:13: warning: ‘set_var’ defined but not used [-Wunused-function]
+ static void set_var(script_var *var, int new_value) {
+             ^
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+18:54:32 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+18:59:33 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c: In function ‘run_script’:
+../whoosh.c:39:15: error: invalid type argument of ‘->’ (have ‘script_group’)
+   switch(group->mode){
+               ^
+../whoosh.c:56:11: error: invalid type argument of ‘->’ (have ‘script_group’)
+   if(group->mode == GROUP_SINGLE){
+           ^
+../whoosh.c: At top level:
+../whoosh.c:126:13: warning: ‘set_var’ defined but not used [-Wunused-function]
+ static void set_var(script_var *var, int new_value) {
+             ^
+make: *** [whoosh.o] Error 1
+19:00:10 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c:126:13: warning: ‘set_var’ defined but not used [-Wunused-function]
+ static void set_var(script_var *var, int new_value) {
+             ^
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+19:00:14 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:01:12 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c:126:13: warning: ‘set_var’ defined but not used [-Wunused-function]
+ static void set_var(script_var *var, int new_value) {
+             ^
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+19:02:27 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:02:30 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:02:43 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:02:44 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:02:46 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:03:32 **** Clean-only build of configuration Debug for project shlab-handout ****
+make clean 
+rm -rf  ./csapp.o ./fail.o ./parse.o ./whoosh.o  ./csapp.d ./fail.d ./parse.d ./whoosh.d  shlab-handout
+ 
+19:03:39 **** Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../csapp.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"csapp.d" -MT"csapp.o" -o "csapp.o" "../csapp.c"
+Finished building: ../csapp.c
+ 
+Building file: ../fail.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fail.d" -MT"fail.o" -o "fail.o" "../fail.c"
+Finished building: ../fail.c
+ 
+Building file: ../parse.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"parse.d" -MT"parse.o" -o "parse.o" "../parse.c"
+Finished building: ../parse.c
+ 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c:126:13: warning: ‘set_var’ defined but not used [-Wunused-function]
+ static void set_var(script_var *var, int new_value) {
+             ^
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+19:03:51 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:04:33 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:04:35 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:04:36 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:04:37 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:04:59 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:05:19 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:06:13 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:55:42 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c: In function ‘run_group’:
+../whoosh.c:71:2: error: expected expression before ‘script_var’
+  script_var* var = group->result_to;
+  ^
+../whoosh.c: At top level:
+../whoosh.c:128:13: warning: ‘set_var’ defined but not used [-Wunused-function]
+ static void set_var(script_var *var, int new_value) {
+             ^
+make: *** [whoosh.o] Error 1
+19:56:17 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c: In function ‘run_group’:
+../whoosh.c:71:2: error: expected expression before ‘script_var’
+  script_var* var = group->result_to;
+  ^
+../whoosh.c: At top level:
+../whoosh.c:128:13: warning: ‘set_var’ defined but not used [-Wunused-function]
+ static void set_var(script_var *var, int new_value) {
+             ^
+make: *** [whoosh.o] Error 1
+19:57:08 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c: In function ‘run_group’:
+../whoosh.c:71:2: error: expected expression before ‘script_var’
+  script_var  var = group->result_to;
+  ^
+../whoosh.c: At top level:
+../whoosh.c:128:13: warning: ‘set_var’ defined but not used [-Wunused-function]
+ static void set_var(script_var *var, int new_value) {
+             ^
+make: *** [whoosh.o] Error 1
+19:57:31 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c: In function ‘run_group’:
+../whoosh.c:71:15: warning: unused variable ‘var’ [-Wunused-variable]
+  script_var*  var = group->result_to;
+               ^
+../whoosh.c: At top level:
+../whoosh.c:128:13: warning: ‘set_var’ defined but not used [-Wunused-function]
+ static void set_var(script_var *var, int new_value) {
+             ^
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+19:57:36 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:58:57 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c: In function ‘run_group’:
+../whoosh.c:72:2: warning: implicit declaration of function ‘__nop’ [-Wimplicit-function-declaration]
+  __nop();
+  ^
+../whoosh.c:71:15: warning: unused variable ‘var’ [-Wunused-variable]
+  script_var*  var = group->result_to;
+               ^
+../whoosh.c: At top level:
+../whoosh.c:128:13: warning: ‘set_var’ defined but not used [-Wunused-function]
+ static void set_var(script_var *var, int new_value) {
+             ^
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+./whoosh.o: In function `run_group':
+/home/adair/CS4400/assign5/shlab-handout/Debug/../whoosh.c:72: undefined reference to `__nop'
+collect2: error: ld returned 1 exit status
+make: *** [shlab-handout] Error 1
+19:59:08 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c: In function ‘run_group’:
+../whoosh.c:71:15: warning: unused variable ‘var’ [-Wunused-variable]
+  script_var*  var = group->result_to;
+               ^
+../whoosh.c: At top level:
+../whoosh.c:127:13: warning: ‘set_var’ defined but not used [-Wunused-function]
+ static void set_var(script_var *var, int new_value) {
+             ^
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+20:08:39 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c:131:13: warning: ‘set_var’ defined but not used [-Wunused-function]
+ static void set_var(script_var *var, int new_value) {
+             ^
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+20:08:43 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+20:09:07 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+20:09:49 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+20:09:52 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+20:09:53 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+20:09:53 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+20:09:58 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+20:10:54 **** Clean-only build of configuration Debug for project shlab-handout ****
+make clean 
+rm -rf  ./csapp.o ./fail.o ./parse.o ./whoosh.o  ./csapp.d ./fail.d ./parse.d ./whoosh.d  shlab-handout
+ 
+20:11:04 **** Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../csapp.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"csapp.d" -MT"csapp.o" -o "csapp.o" "../csapp.c"
+Finished building: ../csapp.c
+ 
+Building file: ../fail.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fail.d" -MT"fail.o" -o "fail.o" "../fail.c"
+Finished building: ../fail.c
+ 
+Building file: ../parse.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"parse.d" -MT"parse.o" -o "parse.o" "../parse.c"
+Finished building: ../parse.c
+ 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c:131:13: warning: ‘set_var’ defined but not used [-Wunused-function]
+ static void set_var(script_var *var, int new_value) {
+             ^
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+20:11:26 **** Clean-only build of configuration Debug for project shlab-handout ****
+make clean 
+rm -rf  ./csapp.o ./fail.o ./parse.o ./whoosh.o  ./csapp.d ./fail.d ./parse.d ./whoosh.d  shlab-handout
+ 
+20:11:31 **** Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../csapp.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"csapp.d" -MT"csapp.o" -o "csapp.o" "../csapp.c"
+Finished building: ../csapp.c
+ 
+Building file: ../fail.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fail.d" -MT"fail.o" -o "fail.o" "../fail.c"
+Finished building: ../fail.c
+ 
+Building file: ../parse.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"parse.d" -MT"parse.o" -o "parse.o" "../parse.c"
+Finished building: ../parse.c
+ 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c:131:13: warning: ‘set_var’ defined but not used [-Wunused-function]
+ static void set_var(script_var *var, int new_value) {
+             ^
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+20:11:51 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+20:12:54 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+20:20:42 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+20:30:50 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c: In function ‘run_group’:
+../whoosh.c:76:3: error: too few arguments to function ‘run_command’
+   run_command()
+   ^
+../whoosh.c:12:13: note: declared here
+ static void run_command(script_command *command);
+             ^
+../whoosh.c:77:2: error: expected ‘;’ before ‘}’ token
+  }
+  ^
+../whoosh.c: At top level:
+../whoosh.c:133:13: warning: ‘set_var’ defined but not used [-Wunused-function]
+ static void set_var(script_var *var, int new_value) {
+             ^
+make: *** [whoosh.o] Error 1
+20:30:58 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c:133:13: warning: ‘set_var’ defined but not used [-Wunused-function]
+ static void set_var(script_var *var, int new_value) {
+             ^
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+20:31:02 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+20:36:17 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c:133:13: warning: ‘set_var’ defined but not used [-Wunused-function]
+ static void set_var(script_var *var, int new_value) {
+             ^
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+20:36:53 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+21:14:43 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c:141:13: warning: ‘set_var’ defined but not used [-Wunused-function]
+ static void set_var(script_var *var, int new_value) {
+             ^
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+21:15:05 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+21:15:28 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+21:15:36 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+21:16:08 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+21:26:48 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c:141:13: warning: ‘set_var’ defined but not used [-Wunused-function]
+ static void set_var(script_var *var, int new_value) {
+             ^
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+21:27:04 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c:141:13: warning: ‘set_var’ defined but not used [-Wunused-function]
+ static void set_var(script_var *var, int new_value) {
+             ^
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+21:32:37 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c: In function ‘run_group’:
+../whoosh.c:84:7: warning: unused variable ‘status’ [-Wunused-variable]
+   int status;
+       ^
+../whoosh.c:69:6: warning: variable ‘repeats’ set but not used [-Wunused-but-set-variable]
+  int repeats = 1;
+      ^
+../whoosh.c: At top level:
+../whoosh.c:139:13: warning: ‘set_var’ defined but not used [-Wunused-function]
+ static void set_var(script_var *var, int new_value) {
+             ^
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+21:57:52 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c: In function ‘run_group’:
+../whoosh.c:84:7: warning: unused variable ‘status’ [-Wunused-variable]
+   int status;
+       ^
+../whoosh.c: At top level:
+../whoosh.c:139:13: warning: ‘set_var’ defined but not used [-Wunused-function]
+ static void set_var(script_var *var, int new_value) {
+             ^
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+22:42:46 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c: In function ‘run_group’:
+../whoosh.c:87:25: error: ‘WEXITSTATUS’ undeclared (first use in this function)
+     Waitpid(pid,&status,WEXITSTATUS);
+                         ^
+../whoosh.c:87:25: note: each undeclared identifier is reported only once for each function it appears in
+../whoosh.c:96:7: warning: unused variable ‘status’ [-Wunused-variable]
+   int status;
+       ^
+../whoosh.c: At top level:
+../whoosh.c:151:13: warning: ‘set_var’ defined but not used [-Wunused-function]
+ static void set_var(script_var *var, int new_value) {
+             ^
+make: *** [whoosh.o] Error 1
+22:47:23 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c: In function ‘run_group’:
+../whoosh.c:88:25: error: ‘WEXISTATUS’ undeclared (first use in this function)
+     Waitpid(pid,&status,WEXISTATUS);
+                         ^
+../whoosh.c:88:25: note: each undeclared identifier is reported only once for each function it appears in
+../whoosh.c:97:7: warning: unused variable ‘status’ [-Wunused-variable]
+   int status;
+       ^
+../whoosh.c: At top level:
+../whoosh.c:152:13: warning: ‘set_var’ defined but not used [-Wunused-function]
+ static void set_var(script_var *var, int new_value) {
+             ^
+make: *** [whoosh.o] Error 1
+22:49:09 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c: In function ‘run_group’:
+../whoosh.c:97:7: warning: unused variable ‘status’ [-Wunused-variable]
+   int status;
+       ^
+../whoosh.c: At top level:
+../whoosh.c:152:13: warning: ‘set_var’ defined but not used [-Wunused-function]
+ static void set_var(script_var *var, int new_value) {
+             ^
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+23:10:13 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+23:10:34 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c: In function ‘run_group’:
+../whoosh.c:77:15: warning: unused variable ‘var’ [-Wunused-variable]
+   script_var* var = group->result_to;
+               ^
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+23:11:53 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c: In function ‘run_group’:
+../whoosh.c:77:15: warning: unused variable ‘var’ [-Wunused-variable]
+   script_var* var = group->result_to;
+               ^
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+23:12:26 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+23:13:18 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+23:14:28 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+23:14:53 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+23:15:16 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+23:15:36 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+23:16:24 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+23:17:03 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+23:18:15 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c: In function ‘run_group’:
+../whoosh.c:90:5: warning: passing argument 1 of ‘printf’ makes pointer from integer without a cast [enabled by default]
+     printf(status_val);
+     ^
+In file included from ../whoosh.c:5:0:
+/usr/include/stdio.h:362:12: note: expected ‘const char * __restrict__’ but argument is of type ‘int’
+ extern int printf (const char *__restrict __format, ...);
+            ^
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+23:18:20 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+23:18:26 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+23:18:30 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+23:19:43 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c: In function ‘run_group’:
+../whoosh.c:91:5: warning: passing argument 1 of ‘printf’ makes pointer from integer without a cast [enabled by default]
+     printf(status_val);
+     ^
+In file included from ../whoosh.c:5:0:
+/usr/include/stdio.h:362:12: note: expected ‘const char * __restrict__’ but argument is of type ‘int’
+ extern int printf (const char *__restrict __format, ...);
+            ^
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+23:19:46 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+23:20:00 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+23:22:00 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c: In function ‘run_group’:
+../whoosh.c:91:5: warning: passing argument 1 of ‘printf’ makes pointer from integer without a cast [enabled by default]
+     printf(status_val);
+     ^
+In file included from ../whoosh.c:5:0:
+/usr/include/stdio.h:362:12: note: expected ‘const char * __restrict__’ but argument is of type ‘int’
+ extern int printf (const char *__restrict __format, ...);
+            ^
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+23:22:08 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+23:22:16 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+23:22:51 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c: In function ‘run_group’:
+../whoosh.c:91:5: warning: passing argument 1 of ‘printf’ makes pointer from integer without a cast [enabled by default]
+     printf(status_val);
+     ^
+In file included from ../whoosh.c:5:0:
+/usr/include/stdio.h:362:12: note: expected ‘const char * __restrict__’ but argument is of type ‘int’
+ extern int printf (const char *__restrict __format, ...);
+            ^
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+23:22:54 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+23:23:16 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+23:23:40 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+23:23:51 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+23:23:55 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+23:24:43 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+23:24:45 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+23:24:50 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+23:26:23 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+23:32:52 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+23:34:00 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+23:37:20 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+23:56:18 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+23:58:34 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+23:59:20 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+00:04:22 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+00:24:33 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+00:33:20 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+01:08:09 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+01:19:46 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+01:20:09 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+01:20:22 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+11:57:30 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c: In function ‘run_script’:
+../whoosh.c:44:4: warning: implicit declaration of function ‘run_single_group’ [-Wimplicit-function-declaration]
+    run_single_group(&group);
+    ^
+../whoosh.c: At top level:
+../whoosh.c:62:13: warning: conflicting types for ‘run_single_group’ [enabled by default]
+ static void run_single_group(script_group* group){
+             ^
+../whoosh.c:62:13: error: static declaration of ‘run_single_group’ follows non-static declaration
+../whoosh.c:44:4: note: previous implicit declaration of ‘run_single_group’ was here
+    run_single_group(&group);
+    ^
+../whoosh.c:115:13: warning: ‘run_group’ defined but not used [-Wunused-function]
+ static void run_group(script_group *group) {
+             ^
+../whoosh.c:62:13: warning: ‘run_single_group’ defined but not used [-Wunused-function]
+ static void run_single_group(script_group* group){
+             ^
+make: *** [whoosh.o] Error 1
+11:58:13 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c:116:13: warning: ‘run_group’ defined but not used [-Wunused-function]
+ static void run_group(script_group *group) {
+             ^
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+16:12:00 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c: In function ‘run_script’:
+../whoosh.c:51:19: error: invalid type argument of ‘->’ (have ‘script_group’)
+    for(; j < group->repeats;j++){
+                   ^
+../whoosh.c: In function ‘run_and_group’:
+../whoosh.c:128:5: warning: implicit declaration of function ‘Pipe’ [-Wimplicit-function-declaration]
+     Pipe(fds);
+     ^
+../whoosh.c:122:15: warning: unused variable ‘n’ [-Wunused-variable]
+   int fds[2], n;
+               ^
+../whoosh.c:192:15: warning: unused variable ‘n’ [-Wunused-variable]
+   int fds[2], n;
+               ^
+../whoosh.c:188:15: warning: unused variable ‘var’ [-Wunused-variable]
+   script_var* var = group->result_to;
+               ^
+../whoosh.c:227:13: error: invalid storage class for function ‘run_group’
+ static void run_group(script_group *group) {
+             ^
+../whoosh.c:285:13: error: invalid storage class for function ‘run_command’
+ static void run_command(script_command *command) {
+             ^
+../whoosh.c:310:13: error: invalid storage class for function ‘set_var’
+ static void set_var(script_var *var, int new_value) {
+             ^
+../whoosh.c:315:1: error: expected declaration or statement at end of input
+ }
+ ^
+../whoosh.c: At top level:
+../whoosh.c:13:13: warning: ‘run_command’ used but never defined [enabled by default]
+ static void run_command(script_command *command);
+             ^
+../whoosh.c:14:13: warning: ‘set_var’ used but never defined [enabled by default]
+ static void set_var(script_var *var, int new_value);
+             ^
+../whoosh.c:12:13: warning: ‘run_group’ declared ‘static’ but never defined [-Wunused-function]
+ static void run_group(script_group *group);
+             ^
+make: *** [whoosh.o] Error 1
+16:12:13 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c: In function ‘run_and_group’:
+../whoosh.c:128:5: warning: implicit declaration of function ‘Pipe’ [-Wimplicit-function-declaration]
+     Pipe(fds);
+     ^
+../whoosh.c:122:15: warning: unused variable ‘n’ [-Wunused-variable]
+   int fds[2], n;
+               ^
+../whoosh.c:192:15: warning: unused variable ‘n’ [-Wunused-variable]
+   int fds[2], n;
+               ^
+../whoosh.c:188:15: warning: unused variable ‘var’ [-Wunused-variable]
+   script_var* var = group->result_to;
+               ^
+../whoosh.c:227:13: error: invalid storage class for function ‘run_group’
+ static void run_group(script_group *group) {
+             ^
+../whoosh.c:285:13: error: invalid storage class for function ‘run_command’
+ static void run_command(script_command *command) {
+             ^
+../whoosh.c:310:13: error: invalid storage class for function ‘set_var’
+ static void set_var(script_var *var, int new_value) {
+             ^
+../whoosh.c:315:1: error: expected declaration or statement at end of input
+ }
+ ^
+../whoosh.c: At top level:
+../whoosh.c:13:13: warning: ‘run_command’ used but never defined [enabled by default]
+ static void run_command(script_command *command);
+             ^
+../whoosh.c:14:13: warning: ‘set_var’ used but never defined [enabled by default]
+ static void set_var(script_var *var, int new_value);
+             ^
+../whoosh.c:12:13: warning: ‘run_group’ declared ‘static’ but never defined [-Wunused-function]
+ static void run_group(script_group *group);
+             ^
+make: *** [whoosh.o] Error 1
+16:13:46 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c: In function ‘run_and_group’:
+../whoosh.c:128:5: warning: implicit declaration of function ‘Pipe’ [-Wimplicit-function-declaration]
+     Pipe(fds);
+     ^
+../whoosh.c:122:15: warning: unused variable ‘n’ [-Wunused-variable]
+   int fds[2], n;
+               ^
+../whoosh.c:192:15: warning: unused variable ‘n’ [-Wunused-variable]
+   int fds[2], n;
+               ^
+../whoosh.c:188:15: warning: unused variable ‘var’ [-Wunused-variable]
+   script_var* var = group->result_to;
+               ^
+../whoosh.c: At top level:
+../whoosh.c:228:13: warning: ‘run_group’ defined but not used [-Wunused-function]
+ static void run_group(script_group *group) {
+             ^
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+./whoosh.o: In function `run_and_group':
+/home/adair/CS4400/assign5/shlab-handout/Debug/../whoosh.c:128: undefined reference to `Pipe'
+/home/adair/CS4400/assign5/shlab-handout/Debug/../whoosh.c:198: undefined reference to `Pipe'
+collect2: error: ld returned 1 exit status
+make: *** [shlab-handout] Error 1
+16:14:25 **** Clean-only build of configuration Debug for project shlab-handout ****
+make clean 
+rm -rf  ./csapp.o ./fail.o ./parse.o ./whoosh.o  ./csapp.d ./fail.d ./parse.d ./whoosh.d  shlab-handout
+ 
+16:14:28 **** Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../csapp.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"csapp.d" -MT"csapp.o" -o "csapp.o" "../csapp.c"
+Finished building: ../csapp.c
+ 
+Building file: ../fail.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fail.d" -MT"fail.o" -o "fail.o" "../fail.c"
+Finished building: ../fail.c
+ 
+Building file: ../parse.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"parse.d" -MT"parse.o" -o "parse.o" "../parse.c"
+Finished building: ../parse.c
+ 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c: In function ‘run_and_group’:
+../whoosh.c:128:5: warning: implicit declaration of function ‘Pipe’ [-Wimplicit-function-declaration]
+     Pipe(fds);
+     ^
+../whoosh.c:122:15: warning: unused variable ‘n’ [-Wunused-variable]
+   int fds[2], n;
+               ^
+../whoosh.c:192:15: warning: unused variable ‘n’ [-Wunused-variable]
+   int fds[2], n;
+               ^
+../whoosh.c:188:15: warning: unused variable ‘var’ [-Wunused-variable]
+   script_var* var = group->result_to;
+               ^
+../whoosh.c: At top level:
+../whoosh.c:228:13: warning: ‘run_group’ defined but not used [-Wunused-function]
+ static void run_group(script_group *group) {
+             ^
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+./whoosh.o: In function `run_and_group':
+/home/adair/CS4400/assign5/shlab-handout/Debug/../whoosh.c:128: undefined reference to `Pipe'
+/home/adair/CS4400/assign5/shlab-handout/Debug/../whoosh.c:198: undefined reference to `Pipe'
+collect2: error: ld returned 1 exit status
+make: *** [shlab-handout] Error 1
+16:15:31 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c: In function ‘run_and_group’:
+../whoosh.c:122:15: warning: unused variable ‘n’ [-Wunused-variable]
+   int fds[2], n;
+               ^
+../whoosh.c:198:5: warning: implicit declaration of function ‘Pipe’ [-Wimplicit-function-declaration]
+     Pipe(fds);
+     ^
+../whoosh.c:192:15: warning: unused variable ‘n’ [-Wunused-variable]
+   int fds[2], n;
+               ^
+../whoosh.c:188:15: warning: unused variable ‘var’ [-Wunused-variable]
+   script_var* var = group->result_to;
+               ^
+../whoosh.c: At top level:
+../whoosh.c:228:13: warning: ‘run_group’ defined but not used [-Wunused-function]
+ static void run_group(script_group *group) {
+             ^
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+./whoosh.o: In function `run_and_group':
+/home/adair/CS4400/assign5/shlab-handout/Debug/../whoosh.c:198: undefined reference to `Pipe'
+collect2: error: ld returned 1 exit status
+make: *** [shlab-handout] Error 1
+16:15:45 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c: In function ‘run_and_group’:
+../whoosh.c:122:15: warning: unused variable ‘n’ [-Wunused-variable]
+   int fds[2], n;
+               ^
+../whoosh.c:192:15: warning: unused variable ‘n’ [-Wunused-variable]
+   int fds[2], n;
+               ^
+../whoosh.c:188:15: warning: unused variable ‘var’ [-Wunused-variable]
+   script_var* var = group->result_to;
+               ^
+../whoosh.c: At top level:
+../whoosh.c:228:13: warning: ‘run_group’ defined but not used [-Wunused-function]
+ static void run_group(script_group *group) {
+             ^
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+16:31:30 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c: In function ‘run_and_group’:
+../whoosh.c:121:15: warning: unused variable ‘n’ [-Wunused-variable]
+   int fds[2], n;
+               ^
+../whoosh.c:168:15: warning: unused variable ‘n’ [-Wunused-variable]
+   int fds[2], n;
+               ^
+../whoosh.c: At top level:
+../whoosh.c:206:13: warning: ‘run_group’ defined but not used [-Wunused-function]
+ static void run_group(script_group *group) {
+             ^
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+16:59:27 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c: In function ‘run_and_group’:
+../whoosh.c:121:15: warning: unused variable ‘n’ [-Wunused-variable]
+   int fds[2], n;
+               ^
+../whoosh.c:168:15: warning: unused variable ‘n’ [-Wunused-variable]
+   int fds[2], n;
+               ^
+../whoosh.c: At top level:
+../whoosh.c:12:13: warning: ‘run_group’ declared ‘static’ but never defined [-Wunused-function]
+ static void run_group(script_group *group);
+             ^
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+16:59:40 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c: In function ‘run_and_group’:
+../whoosh.c:121:15: warning: unused variable ‘n’ [-Wunused-variable]
+   int fds[2], n;
+               ^
+../whoosh.c:168:15: warning: unused variable ‘n’ [-Wunused-variable]
+   int fds[2], n;
+               ^
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+17:17:27 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+17:23:34 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+18:02:10 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+18:02:34 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+18:02:47 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+18:03:28 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+18:03:52 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+18:04:35 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+18:09:58 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+18:13:08 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+18:21:44 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+18:21:50 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+18:25:32 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+18:26:24 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+18:40:11 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+19:20:14 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:20:47 **** Clean-only build of configuration Debug for project shlab-handout ****
+make clean 
+rm -rf  ./csapp.o ./fail.o ./parse.o ./whoosh.o  ./csapp.d ./fail.d ./parse.d ./whoosh.d  shlab-handout
+ 
+19:20:52 **** Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../csapp.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"csapp.d" -MT"csapp.o" -o "csapp.o" "../csapp.c"
+Finished building: ../csapp.c
+ 
+Building file: ../fail.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fail.d" -MT"fail.o" -o "fail.o" "../fail.c"
+Finished building: ../fail.c
+ 
+Building file: ../parse.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"parse.d" -MT"parse.o" -o "parse.o" "../parse.c"
+Finished building: ../parse.c
+ 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+19:20:58 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:21:26 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:21:59 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:22:57 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:26:52 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:33:43 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+19:34:22 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:34:37 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:35:22 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:39:56 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c: In function ‘run_and_group’:
+../whoosh.c:197:18: error: invalid type argument of ‘->’ (have ‘script_command’)
+    if(commands[i]->pid_to != NULL){
+                  ^
+../whoosh.c:198:24: error: invalid type argument of ‘->’ (have ‘script_command’)
+     set_var(commands[i]->pid_to,getppid());
+                        ^
+make: *** [whoosh.o] Error 1
+19:40:17 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+19:40:41 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:40:48 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:41:07 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:43:40 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+19:43:45 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:44:11 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+19:44:14 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:46:02 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+19:46:05 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:50:03 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+19:50:06 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:53:26 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+19:53:28 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:54:47 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+19:54:53 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:54:55 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+20:00:43 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+20:01:37 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+20:01:50 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+20:01:53 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+20:02:04 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+20:02:07 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+20:02:30 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+20:04:25 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+20:04:58 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+20:06:20 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+20:07:33 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+20:07:55 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+20:08:41 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+20:09:58 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+20:10:02 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+20:10:03 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+20:10:05 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+20:10:09 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+20:10:13 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+20:10:40 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+20:16:09 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+20:16:13 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+20:16:17 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+20:43:55 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c: In function ‘run_or_command’:
+../whoosh.c:230:9: warning: variable ‘first’ set but not used [-Wunused-but-set-variable]
+   pid_t first;
+         ^
+../whoosh.c:221:19: warning: unused variable ‘commands’ [-Wunused-variable]
+   script_command* commands = group->commands;
+                   ^
+../whoosh.c: At top level:
+../whoosh.c:217:13: warning: ‘run_or_command’ defined but not used [-Wunused-function]
+ static void run_or_command(script_group* group){
+             ^
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+20:44:52 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c: In function ‘run_or_command’:
+../whoosh.c:221:19: warning: unused variable ‘commands’ [-Wunused-variable]
+   script_command* commands = group->commands;
+                   ^
+../whoosh.c: At top level:
+../whoosh.c:217:13: warning: ‘run_or_command’ defined but not used [-Wunused-function]
+ static void run_or_command(script_group* group){
+             ^
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+20:45:14 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c: In function ‘run_or_command’:
+../whoosh.c:218:19: warning: unused variable ‘commands’ [-Wunused-variable]
+   script_command* commands = group->commands;
+                   ^
+../whoosh.c: At top level:
+../whoosh.c:17:13: warning: ‘run_or_group’ used but never defined [enabled by default]
+ static void run_or_group(script_group* group);
+             ^
+../whoosh.c:214:13: warning: ‘run_or_command’ defined but not used [-Wunused-function]
+ static void run_or_command(script_group* group){
+             ^
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+./whoosh.o: In function `run_script':
+/home/adair/CS4400/assign5/shlab-handout/Debug/../whoosh.c:62: undefined reference to `run_or_group'
+collect2: error: ld returned 1 exit status
+make: *** [shlab-handout] Error 1
+20:45:38 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c: In function ‘run_script’:
+../whoosh.c:62:5: warning: implicit declaration of function ‘run_or_command’ [-Wimplicit-function-declaration]
+     run_or_command(&group);
+     ^
+../whoosh.c: At top level:
+../whoosh.c:214:13: warning: conflicting types for ‘run_or_command’ [enabled by default]
+ static void run_or_command(script_group* group){
+             ^
+../whoosh.c:214:13: error: static declaration of ‘run_or_command’ follows non-static declaration
+../whoosh.c:62:5: note: previous implicit declaration of ‘run_or_command’ was here
+     run_or_command(&group);
+     ^
+../whoosh.c: In function ‘run_or_command’:
+../whoosh.c:218:19: warning: unused variable ‘commands’ [-Wunused-variable]
+   script_command* commands = group->commands;
+                   ^
+../whoosh.c: At top level:
+../whoosh.c:17:13: warning: ‘run_or_group’ declared ‘static’ but never defined [-Wunused-function]
+ static void run_or_group(script_group* group);
+             ^
+../whoosh.c:214:13: warning: ‘run_or_command’ defined but not used [-Wunused-function]
+ static void run_or_command(script_group* group){
+             ^
+make: *** [whoosh.o] Error 1
+20:46:09 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c: In function ‘run_or_group’:
+../whoosh.c:218:19: warning: unused variable ‘commands’ [-Wunused-variable]
+   script_command* commands = group->commands;
+                   ^
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+20:46:28 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+20:46:48 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+20:48:30 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c: In function ‘run_or_group’:
+../whoosh.c:249:7: warning: variable ‘status_val’ set but not used [-Wunused-but-set-variable]
+   int status_val = 0;
+       ^
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+20:48:36 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+20:48:41 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+20:51:31 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c: In function ‘run_or_group’:
+../whoosh.c:250:7: warning: variable ‘status_val’ set but not used [-Wunused-but-set-variable]
+   int status_val = 0;
+       ^
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+20:51:54 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+20:52:00 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+20:52:13 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+20:52:33 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+20:54:02 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c: In function ‘run_or_group’:
+../whoosh.c:250:7: warning: variable ‘status_val’ set but not used [-Wunused-but-set-variable]
+   int status_val = 0;
+       ^
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+20:54:06 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+21:01:34 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c: In function ‘child_handler’:
+../whoosh.c:216:6: warning: variable ‘status_val’ set but not used [-Wunused-but-set-variable]
+  int status_val;
+      ^
+../whoosh.c: In function ‘run_or_group’:
+../whoosh.c:240:9: warning: unused variable ‘first_done’ [-Wunused-variable]
+   pid_t first_done = Wait(&status);
+         ^
+../whoosh.c:263:7: warning: variable ‘status_val’ set but not used [-Wunused-but-set-variable]
+   int status_val = 0;
+       ^
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+21:02:44 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+21:02:49 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+21:02:51 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+21:03:45 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c: In function ‘child_handler’:
+../whoosh.c:216:6: warning: variable ‘status_val’ set but not used [-Wunused-but-set-variable]
+  int status_val;
+      ^
+../whoosh.c: In function ‘run_or_group’:
+../whoosh.c:264:7: warning: variable ‘status_val’ set but not used [-Wunused-but-set-variable]
+   int status_val = 0;
+       ^
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+21:03:50 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+21:04:20 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c: In function ‘child_handler’:
+../whoosh.c:216:6: warning: variable ‘status_val’ set but not used [-Wunused-but-set-variable]
+  int status_val;
+      ^
+../whoosh.c: In function ‘run_or_group’:
+../whoosh.c:240:9: warning: unused variable ‘first_done’ [-Wunused-variable]
+   pid_t first_done = Wait(&status);
+         ^
+../whoosh.c:263:7: warning: variable ‘status_val’ set but not used [-Wunused-but-set-variable]
+   int status_val = 0;
+       ^
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+21:04:24 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+21:10:33 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c: In function ‘child_handler’:
+../whoosh.c:216:6: warning: variable ‘status_val’ set but not used [-Wunused-but-set-variable]
+  int status_val;
+      ^
+../whoosh.c: In function ‘run_or_group’:
+../whoosh.c:245:9: warning: unused variable ‘first_done’ [-Wunused-variable]
+   pid_t first_done = Wait(&status);
+         ^
+../whoosh.c:273:7: warning: variable ‘status_val’ set but not used [-Wunused-but-set-variable]
+   int status_val = 0;
+       ^
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+21:12:43 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c: In function ‘run_or_group’:
+../whoosh.c:233:9: warning: unused variable ‘first_done’ [-Wunused-variable]
+   pid_t first_done = Wait(&status);
+         ^
+../whoosh.c:261:7: warning: variable ‘status_val’ set but not used [-Wunused-but-set-variable]
+   int status_val = 0;
+       ^
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+21:22:33 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+21:25:01 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c: In function ‘run_single_group’:
+../whoosh.c:114:8: error: ‘commands’ undeclared (first use in this function)
+     if(commands[0].pid_to != 0){
+        ^
+../whoosh.c:114:8: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [whoosh.o] Error 1
+21:25:43 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c: In function ‘run_single_group’:
+../whoosh.c:115:6: warning: passing argument 1 of ‘set_var’ from incompatible pointer type [enabled by default]
+      set_var(&group->commands[0].pid_to,pid);
+      ^
+../whoosh.c:14:13: note: expected ‘struct script_var *’ but argument is of type ‘struct script_var **’
+ static void set_var(script_var *var, int new_value);
+             ^
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+21:26:26 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+../whoosh.c: In function ‘run_single_group’:
+../whoosh.c:115:6: warning: passing argument 1 of ‘set_var’ from incompatible pointer type [enabled by default]
+      set_var(&(group->commands[0].pid_to),pid);
+      ^
+../whoosh.c:14:13: note: expected ‘struct script_var *’ but argument is of type ‘struct script_var **’
+ static void set_var(script_var *var, int new_value);
+             ^
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+21:26:46 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+21:29:07 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 

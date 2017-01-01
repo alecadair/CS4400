@@ -1,0 +1,278 @@
+/*
+ * mm-naive.c - The least memory-efficient malloc package.
+ * 
+ * In this naive approach, a block is allocated by allocating a
+ * new page as needed.  A block is pure payload. There are no headers or
+ * footers.  Blocks are never coalesced or reused.
+ *
+ * NOTE TO STUDENTS: Replace this header comment with your own header
+ * comment that gives a high level description of your solution.
+ */
+#include <stdio.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <unistd.h>
+#include <math.h>
+#include <string.h>
+#include "mm.h"
+#include "memlib.h"
+
+/* always use 16-byte alignment */
+#define ALIGNMENT 16
+
+/* rounds up to the nearest multiple of ALIGNMENT */
+#define ALIGN(size) (((size) + (ALIGNMENT-1)) & ~(ALIGNMENT-1))
+
+//typedef int block_header;
+typedef int block_footer;
+
+/* rounds up to the nearest multiple of mem_page size() */
+#define PAGE_ALIGN(size) (((size) + (mem_pagesize()-1)) & ~(mem_pagesize()-1))
+
+//#define WSIZE 16
+//#define DSIZE 32
+#define CHUNK_SIZE (1<<14)
+#define CHUNK_ALIGN(size)(((size)+(CHUNK_SIZE -1)) &~ (CHUNK_SIZE -1))
+#define GET(p) (*(int *)(p))
+#define MAX(x,y) ((x) > (y) ? (x) :(y))
+#define PACK(size, alloc)((size)|(alloc))
+#define NEXT_BLKP(bp) ((char *)(bp) + GET_SIZE(HDRP(bp)))
+#define GET_SIZE(p) ((block_header *)(p))->size
+#define GET_ALLOC(p) ((block_header *)(p))->allocated
+#define OVERHEAD sizeof(block_header)
+#define HDRP(bp) ((char*)(bp) - sizeof(block_header))
+#define FTRP(bp) ((char *)(bp)+GET_SIZE(HDRP(bp))-OVERHEAD)
+//#define FTRP(bp) ((char*)(bp) + GET_SIZE(HDRP(bp)) - DSIZE)
+
+#define HEAP_NODE_SIZE ALIGN(sizeof(block_header))
+#define FREE_NODE_SIZE ALIGN(sizeof(free_list_node))
+
+//typedef struct block_header{
+//	size_t size;
+//	struct block_header* prev;
+//	struct block_header* next;
+//	char allocated;
+//}block_header;
+//typedef Block_header block_header;
+
+typedef struct block_header{
+    //size_t size;
+    struct block_header*prev;
+    struct block_header*next;
+    int  allocated;
+    size_t size;
+    //short pad;
+}block_header;
+
+typedef struct free_list_node{
+	size_t size;
+	struct free_list_node* prev;
+	struct free_list_node* next;
+}free_list_node;
+
+block_header* first_bp = NULL;
+free_list_node* free_list = NULL;
+
+int max(x,y){
+  if(x > y)
+    return x;
+  return y;
+}
+
+void* list;
+block_header* tail;
+int current_avail_size =0;
+void* heap_start(){
+	return first_bp;
+}
+void set_allocated(void *bp, size_t size) {
+	//size_t extra_size = GET_SIZE(HDRP(bp)) - size;
+	block_header* _bp = (block_header*)bp;
+	//_bp->allocated = 1;
+	size_t extra_size = _bp->size -size;
+	if(extra_size > ALIGN(1+OVERHEAD)){
+		_bp->size = ALIGN(size);
+		_bp->allocated = 1;
+		void* new_node = bp + ALIGN(size + (OVERHEAD));
+		block_header* _new = (block_header*)new_node;
+		//linked list insertion
+		_bp->next->prev = _new;
+		_new->next = _bp->next;
+		_bp->next = _new;
+		_new->prev = _bp;
+
+		_new->allocated = 0;
+		_new->size = ALIGN(extra_size - (1+OVERHEAD));
+	}
+//	void* new_node = _bp + ALIGN(1+OVERHEAD + size);
+//	block_header* _new = (block_header*)new_node;
+//	_new->prev = tail;
+//	_new->next = first_bp;
+//	tail->next = _bp;
+//	tail = _bp;
+//	if(extra_size > ALIGN(1+OVERHEAD)){
+//		_bp->size = size;
+//		_bp->next->size = extra_size;
+//		_bp->next->allocated = 0;
+//	}
+//	_bp->allocated = 1;
+	return;
+//	if (extra_size > ALIGN(1 + OVERHEAD)){
+//	 GET_SIZE(HDRP(bp)) = ALIGN(size);
+//	 GET_SIZE(HDRP(NEXT_BLKP(bp))) = ALIGN(extra_size);
+//	 GET_ALLOC(HDRP(NEXT_BLKP(bp))) = 0;
+//	}
+//	GET_ALLOC(HDRP(bp)) = 1;
+}
+static void* find_first_fit(size_t size){
+	block_header*bp = first_bp;
+	do{
+		if(bp->size > size && !bp->allocated){
+			return bp;
+		}
+	}while(bp != first_bp);
+	return NULL;
+}
+static void* find_best_fit(size_t size){
+    block_header *bp = first_bp;
+    block_header* best_bp = NULL;
+    do{//while(bp->size != 0){
+        if((!bp->allocated) && (bp->size >= size)){
+            if(!best_bp || bp->size < best_bp->size){
+                best_bp = bp;
+            }
+        }
+        bp = bp->next;
+    }while(bp != first_bp && bp->size != 0);
+
+  return best_bp;
+ //  int
+  //  void* best_bp = NULL;
+  //  while(GET_SIZE(HDRP))
+}
+
+void extend(size_t new_size) {
+	size_t chunk_size = PAGE_ALIGN(new_size);
+	void *bp = mem_map(chunk_size);
+	block_header*_bp = (block_header*)bp;
+	_bp->prev = tail;
+	_bp->next = first_bp;
+	tail->next = _bp;
+	tail = _bp;
+	//iterate through linked list until tail.
+}
+
+
+/* 
+ * mm_init - initialize the malloc package.
+ */
+int mm_init(void)
+{
+   // printf("%d\n",sizeof(block_header));
+    first_bp =(block_header*) mem_map(PAGE_ALIGN(1+OVERHEAD));
+    first_bp->next = first_bp;
+    first_bp->prev = first_bp;
+    first_bp->size = PAGE_ALIGN(1) - OVERHEAD;
+    first_bp->allocated =0;
+    tail = first_bp;
+    return 0;
+}
+
+/* 
+ * mm_malloc - Allocate a block by using bytes from current_avail,
+ *     grabbing a new page if necessary.
+ */
+void* mm_malloc(size_t size)
+{
+    int need_size = max(size,sizeof(block_header));
+
+    int new_size = ALIGN(need_size + OVERHEAD);
+    block_header* best_bp = find_best_fit(new_size);
+    if(best_bp){
+    	//extend(new_size);
+    	best_bp->allocated = 1;
+    	best_bp->prev->next = best_bp->next;
+    	best_bp->next->prev = best_bp->prev;
+
+    	//set_allocated(best_bp,new_size);
+        //best_bp->size = new_size;
+        //best_bp->allocated = 1;
+        return best_bp + OVERHEAD;
+    }else{
+    	//extend(new_size);
+    	size_t chunk_size = PAGE_ALIGN(new_size);
+    	void *bp = mem_map(/*PAGE_ALIGN*/(2*chunk_size /*+ OVERHEAD*/));
+       	block_header*_bp = (block_header*)bp;
+    	_bp->size = ALIGN(chunk_size - OVERHEAD);
+    	_bp->allocated = 1;
+    	_bp->prev = tail;
+    	tail->next = _bp;
+    	_bp->next = first_bp;
+    	tail = _bp;
+    	return bp+OVERHEAD;
+    	//_bp->prev = tail;
+    	//_bp->next = first_bp;
+    	//tail->next = _bp;
+    	//tail = _bp;
+   	//set_allocated(tail,new_size);
+    }
+/*
+     block_header *best_bp = NULL;
+     while (GET_SIZE(HDRP(bp)) != 0) {
+         if (!GET_ALLOC(HDRP(bp))&& (GET_SIZE(HDRP(bp)) >= new_size)){
+             if (!best_bp || (GET_SIZE(HDRP(bp)) < GET_SIZE(HDRP(best_bp))))
+                 best_bp = bp;
+
+         }
+         bp = NEXT_BLKP(bp);
+
+     }
+     if (best_bp) {
+         set_allocated(best_bp, new_size);
+         return best_bp;
+     }*/
+
+     return NULL;
+     /*while (GET_SIZE(HDRP(bp)) != 0) {
+     if (!GET_ALLOC(HDRP(bp))
+     /&& (GET_SIZE(HDRP(bp)) >= new_size)) {
+	 set_allocated(bp, new_size);
+	 return bp;
+	 }
+	 bp = NEXT_BLKP(bp);
+	 }
+	 extend(new_size);
+	 set_allocated(bp, new_size);
+     return bp;*/
+//  int new_size = ALIGN(size + HEAP_NODE_SIZE);
+//  block_header* bp =(block_header*) find_memory_fit(new_size);
+//  if(bp == 0){
+//	  bp = mem_map(PAGE_ALIGN(new_size));
+//	  if((long)bp < 0){
+//		  return NULL;
+//	  }else{
+//		  bp->size = new_size | 1;
+//
+//	  }
+//  }else{
+//	  bp->size |= 1;
+//	  bp->prev->next = bp->next;
+//	  bp->next->prev = bp->prev;
+//  }
+//  return (void*)bp + HEAP_NODE_SIZE;
+}
+
+/*
+ * mm_free - Freeing a block does nothing.
+ */
+void mm_free(void *ptr)
+{
+//	block_header* to_free = ptr-OVERHEAD;
+//	to_free->allocated = 0;
+//	to_free->next = first_bp->next;
+//	to_free->prev = first_bp;
+//	first_bp->next = to_free;
+//	to_free->next->prev = to_free;
+
+
+}

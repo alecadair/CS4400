@@ -1,0 +1,265 @@
+#include <stdlib.h>
+#include <stdio.h>
+
+unsigned char isUpperCase(char letter){
+	if((letter < 'A') || (letter > 'Z')){
+		return 0;
+	}
+	else{
+		//upperCases[index] = letter;
+		return 1;
+	}
+}
+
+unsigned char isDecimalDigit(char c){
+	if((c < '0')||(c > '9')){
+		return 0;
+	}
+	else{
+		return 1;
+	}
+}
+
+unsigned char checkOddChars(char* Uppers, char* toCheck ){
+/*	for(int i = 0; Uppers[i] != '\0';i++){
+		printf("%c\n", Uppers[i]);
+	}*/
+
+	//printf("\n");
+/*	for(int i = 0; toCheck[i] != '\0';i++){
+		printf("%c\n", toCheck[i]);
+	}*/
+	//printf("\n");
+
+    for(int i = 0; toCheck[i] != '\0'; i++){
+    		if(toCheck[i] != Uppers[i*2 + 1]){
+    			return 0;
+    		}
+    }
+	return 1;
+}
+
+int main(int argc, const char* argv[]){
+	//Check for correct amount of arguments
+//	printf("number of arguments\t%d\n",argc);
+	int TMODE = 0;
+	int flagCount = 0;
+
+	//Mode = 0, corresponds to mode A
+	//Mode = 1, corresponds to mode B
+	//Mode = 2, corresponds to mode C
+	int MODE = 0;
+
+	if(argc < 2){
+//		printf("Not enough arguments\n");
+		return 0;
+	}
+
+	//check flags
+	for(int i = 1; i < 3; i++){
+		const char* arg = argv[i];
+		if(arg[0] != '-'){
+			//printf("A MODE\n");
+			break;
+		}
+		flagCount ++;
+/*		if(((i == 1)||( i == 2)) && (arg[1] == 't')){
+			printf("T MODE\n");
+			TMODE = true;
+		}*/
+	//	else{
+			switch (arg[1]){
+			case 'a':
+				MODE = 0;
+				printf("A MODE\n");
+				break;
+			case 'b':
+				MODE = 1;
+				printf("B MODE\n");
+				break;
+			case 'c':
+				MODE = 2;
+				printf("C MODE\n");
+				break;
+			case 't':
+				TMODE = 1;
+				break;
+			default :
+				break;
+			}
+	}
+	for(int i = flagCount+1; i < argc; i++){
+		const char* word = argv[i];
+		int letterCount = 0;
+		switch(MODE){
+		case 0:{
+			printf("made it to case 0");
+			//check for even amount of e
+			int eCounter = 0;
+			for(int j = 0; word[j] == 'e'; j++){
+				eCounter ++;
+				letterCount ++;
+			}
+			if((eCounter&1)){
+				if(!TMODE){
+					printf("no\n");
+				}
+			}
+			else{
+				int pCounter = 0;
+				for(int j = letterCount; word[j] == 'p'; j++){
+					pCounter ++;
+					letterCount++;
+				}
+				if(pCounter&1){
+					int upCounter = 0;
+					for(int j = letterCount; isUpperCase(word[j]); j++){
+						upCounter++;
+						letterCount++;
+					}
+					if(upCounter&1){
+						if(!TMODE){
+							printf("yes\n");
+						}
+						else{
+							char conversion[letterCount];
+							for(int j = 0; j < letterCount; j++){
+								conversion[j] = word[letterCount-1];
+							}
+							conversion[letterCount] = '\0';
+							printf("%s\n", conversion);
+						}
+					}
+					else{
+						if(!TMODE)
+							printf("no\n");
+					}
+				}
+				else{
+					if(!TMODE)
+						printf("no\n");
+				}
+			}
+			break;
+		}
+		case 1:{
+			//printf("made it to case 1");
+			int eCounter = 0;
+			int letterCount = 0;
+			for(int j = 0; word[j] == 'e'; j++){
+				eCounter++;
+				letterCount++;
+			}
+			if(eCounter >= 4){
+				printf("no\n");
+			}
+			else{
+				int upperCaseCount = 0;
+				char upperCases[1024];
+		//		int jCount = 0;
+				for(int j = letterCount; isUpperCase(word[j]); j++){
+
+					upperCases[upperCaseCount] = word[j];
+					upperCaseCount++;
+					letterCount++;
+		//			jCount = j - letterCount;
+				}
+
+		//		upperCases[jCount] = '\0';
+				if(upperCaseCount&1){
+					int wCounter = 0;
+					for(int j = letterCount; word[j] == 'w'; j++){
+						wCounter ++;
+						letterCount ++;
+					}
+					if((wCounter <= 0) ||(wCounter > 3)){
+						printf("no\n");
+					}
+					else{
+						int digitCount = 0;
+						for(int j = letterCount; isDecimalDigit(word[j]); j++){
+							letterCount++;
+							digitCount++;
+						}
+						if((digitCount < 1)||(digitCount >3)){
+							printf("no\n");
+						}
+						else{
+							char lastChars[1024];
+							int lastLetter = 0;
+							for(int j = letterCount; word[j] != '\0'; j++ ){
+							//	printf("%c\n", lastChars[j - letterCount]);
+								lastChars[lastLetter] = word[letterCount];
+								letterCount++;
+								lastLetter++;
+							}
+							//lastChars[lastLetter] = '\0';
+							if(checkOddChars(upperCases,lastChars)){
+								printf("yes\n");
+							}
+							else{
+								printf("no\n");
+							}
+						}
+					}
+				}
+				else{
+					printf("no\n");
+				}
+			}
+			break;
+		}
+		case 2:{
+			int letterCount = 0;
+			int aCounter = 0;
+			for(int j = 0; word[j] != 'a'; j++){
+				aCounter++;
+				letterCount++;
+			}
+			if(!(letterCount&1)){
+				print("no\n");
+			}
+			else{
+				int upperCaseCounter = 0;
+				char upperCases[1024];
+				for(int j = letterCount; isUpperCase(word[j]); j++){
+					upperCases[upperCaseCounter] = word[j];
+					upperCaseCounter ++;
+					letterCount ++;
+				}
+				if(!(upperCaseCounter&1)){
+					print("no\n");
+				}
+				else{
+					int nCounter = 0;
+					for(int j = letterCount; word[j] == 'n'; j++){
+						nCounter ++;
+						letterCount ++;
+					}
+				if((nCounter < 1) || (nCounter>3)){
+					print("no\n");
+				}
+				else{
+
+				}
+			}
+			break;
+		}
+
+		default:{
+			break;
+		}
+		//	int eCounter = 0;
+
+	//	break;
+		}
+	}
+/*	if(strcmp(argv[1],"-t") == 0){
+		printf("T Mode");
+	}*/
+
+
+	return 0;
+}
+
+

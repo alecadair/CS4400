@@ -1,0 +1,1783 @@
+16:42:09 **** Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o driver.o driver.c
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2   -c -o fcyc.o fcyc.c
+gcc -Wall -O2   -c -o clock.o clock.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+16:42:33 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+16:42:58 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+16:43:04 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+16:43:54 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+16:58:51 **** Clean-only build of configuration Debug for project PERFLAB-HANDOUT ****
+make clean 
+rm -f driver.o kernels.o fcyc.o clock.o driver core *~ *.o
+16:58:58 **** Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o driver.o driver.c
+gcc -Wall -O2   -c -o kernels.o kernels.c
+kernels.c:95:47: error: use of undeclared identifier 'less_naive_pinewheel_descr'; did you mean 'less_naive_pinwheel_descr'?
+  add_pinwheel_function(&less_naive_pinwheel, less_naive_pinewheel_descr);
+                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~
+                                              less_naive_pinwheel_descr
+kernels.c:28:6: note: 'less_naive_pinwheel_descr' declared here
+char less_naive_pinwheel_descr[] = "naive_pinwheel: Naive baseline implementation";
+     ^
+1 error generated.
+make: *** [kernels.o] Error 1
+16:59:25 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2   -c -o fcyc.o fcyc.c
+gcc -Wall -O2   -c -o clock.o clock.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+16:59:30 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+17:01:17 **** Clean-only build of configuration Debug for project PERFLAB-HANDOUT ****
+make clean 
+rm -f driver.o kernels.o fcyc.o clock.o driver core *~ *.o
+17:01:23 **** Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o driver.o driver.c
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2   -c -o fcyc.o fcyc.c
+gcc -Wall -O2   -c -o clock.o clock.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+17:01:49 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+17:14:33 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+17:14:41 **** Clean-only build of configuration Debug for project PERFLAB-HANDOUT ****
+make clean 
+rm -f driver.o kernels.o fcyc.o clock.o driver core *~ *.o
+17:14:46 **** Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o driver.o driver.c
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2   -c -o fcyc.o fcyc.c
+gcc -Wall -O2   -c -o clock.o clock.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+17:14:58 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+17:33:36 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+17:34:03 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+17:40:18 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+17:40:24 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+17:42:51 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+17:42:55 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+18:04:34 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+18:05:01 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+18:05:18 **** Clean-only build of configuration Debug for project PERFLAB-HANDOUT ****
+make clean 
+rm -f driver.o kernels.o fcyc.o clock.o driver core *~ *.o
+18:05:23 **** Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o driver.o driver.c
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2   -c -o fcyc.o fcyc.c
+gcc -Wall -O2   -c -o clock.o clock.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+18:05:36 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+18:06:55 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o driver.o driver.c
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2   -c -o fcyc.o fcyc.c
+gcc -Wall -O2   -c -o clock.o clock.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+18:12:37 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+18:12:47 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+18:15:25 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+18:15:45 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+18:20:30 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+18:20:46 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+18:21:24 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+18:21:28 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+18:22:30 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+18:22:36 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+18:23:24 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+18:23:43 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+18:23:54 **** Clean-only build of configuration Debug for project PERFLAB-HANDOUT ****
+make clean 
+rm -f driver.o kernels.o fcyc.o clock.o driver core *~ *.o
+18:24:00 **** Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o driver.o driver.c
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2   -c -o fcyc.o fcyc.c
+gcc -Wall -O2   -c -o clock.o clock.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+18:24:06 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+18:24:19 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+18:24:22 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+18:26:37 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+kernels.c:33:7: error: expected expression
+  std::cout << limit << endl;
+      ^
+1 error generated.
+make: *** [kernels.o] Error 1
+18:26:52 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+kernels.c:7:10: fatal error: 'iostream' file not found
+#include <iostream>
+         ^
+1 error generated.
+make: *** [kernels.o] Error 1
+18:27:12 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+kernels.c:33:10: warning: incompatible integer to pointer conversion passing 'int' to parameter of type 'const char *' [-Wint-conversion]
+  printf(limit);
+         ^~~~~
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/include/stdio.h:259:36: note: passing argument to parameter here
+int      printf(const char * __restrict, ...) __printflike(1, 2);
+                                       ^
+kernels.c:33:10: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+  printf(limit);
+         ^~~~~
+2 warnings generated.
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+18:27:33 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+kernels.c:33:10: warning: implicit declaration of function 'itoa' is invalid in C99 [-Wimplicit-function-declaration]
+  printf(itoa(limit));
+         ^
+kernels.c:33:10: warning: incompatible integer to pointer conversion passing 'int' to parameter of type 'const char *' [-Wint-conversion]
+  printf(itoa(limit));
+         ^~~~~~~~~~~
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/include/stdio.h:259:36: note: passing argument to parameter here
+int      printf(const char * __restrict, ...) __printflike(1, 2);
+                                       ^
+kernels.c:33:10: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+  printf(itoa(limit));
+         ^~~~~~~~~~~
+3 warnings generated.
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+Undefined symbols for architecture x86_64:
+  "_itoa", referenced from:
+      _less_naive_pinwheel in kernels.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [driver] Error 1
+18:27:53 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+kernels.c:33:10: warning: incompatible integer to pointer conversion passing 'int' to parameter of type 'const char *' [-Wint-conversion]
+  printf(limit);
+         ^~~~~
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/include/stdio.h:259:36: note: passing argument to parameter here
+int      printf(const char * __restrict, ...) __printflike(1, 2);
+                                       ^
+kernels.c:33:10: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+  printf(limit);
+         ^~~~~
+2 warnings generated.
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+18:27:58 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+18:28:12 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+18:28:20 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+18:33:30 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+18:33:37 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+18:35:12 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+18:35:22 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+18:39:27 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+18:39:31 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+18:40:48 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+18:40:59 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+18:41:27 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+18:41:31 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+18:43:09 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+18:43:14 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+18:43:25 **** Clean-only build of configuration Debug for project PERFLAB-HANDOUT ****
+make clean 
+rm -f driver.o kernels.o fcyc.o clock.o driver core *~ *.o
+18:43:33 **** Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o driver.o driver.c
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2   -c -o fcyc.o fcyc.c
+gcc -Wall -O2   -c -o clock.o clock.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+18:43:35 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+19:16:55 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+19:17:05 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+19:17:32 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+19:17:35 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+19:18:36 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+19:18:41 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+19:19:26 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+19:19:32 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+19:20:24 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+19:20:29 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+19:21:30 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+kernels.c:46:5: error: expected ']'
+    }
+    ^
+kernels.c:45:60: note: to match this '['
+        dest[RIDX(limit - 1 - (j+1), limit + i, dim)] = src[RIDX(i, limit + (j+1), dim)
+                                                           ^
+1 error generated.
+make: *** [kernels.o] Error 1
+19:22:00 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+kernels.c:46:5: error: expected ']'
+    }
+    ^
+kernels.c:45:60: note: to match this '['
+        dest[RIDX(limit - 1 - (j+1), limit + i, dim)] = src[RIDX(i, limit + (j+1), dim)
+                                                           ^
+1 error generated.
+make: *** [kernels.o] Error 1
+19:22:14 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+19:22:20 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+19:22:57 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+19:23:04 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+19:23:06 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+19:25:18 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+19:25:22 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+19:25:43 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+19:27:18 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+19:27:24 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+19:27:28 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+19:31:24 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+19:31:30 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+19:34:51 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+19:34:56 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+19:38:38 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+19:38:45 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+19:42:12 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+19:42:27 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+19:44:47 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+19:44:54 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+19:47:36 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+kernels.c:37:37: error: too few arguments provided to function-like macro invocation
+        int rdxlim = RIDX(limit - 1 - j);
+                                       ^
+./defs.h:11:9: note: macro 'RIDX' defined here
+#define RIDX(i,j,n) ((i)*(n)+(j))
+        ^
+kernels.c:37:19: error: use of undeclared identifier 'RIDX'
+        int rdxlim = RIDX(limit - 1 - j);
+                     ^
+2 errors generated.
+make: *** [kernels.o] Error 1
+19:48:46 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+kernels.c:37:44: error: too few arguments provided to function-like macro invocation
+        int rdxlim = RIDX(limit - 1 - j, i dim);
+                                              ^
+./defs.h:11:9: note: macro 'RIDX' defined here
+#define RIDX(i,j,n) ((i)*(n)+(j))
+        ^
+kernels.c:37:19: error: use of undeclared identifier 'RIDX'
+        int rdxlim = RIDX(limit - 1 - j, i dim);
+                     ^
+2 errors generated.
+make: *** [kernels.o] Error 1
+19:48:57 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+19:55:05 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+19:55:53 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+11:54:10 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+11:54:52 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+12:22:32 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+12:22:40 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+12:23:24 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+12:23:26 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+12:24:07 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+12:25:39 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+12:25:43 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+12:26:13 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+12:26:16 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+12:28:37 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+12:28:41 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+12:37:26 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+12:37:31 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+12:46:28 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+12:46:43 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+12:47:10 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+12:48:54 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+12:49:57 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+12:50:00 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+16:02:31 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o driver.o driver.c
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2   -c -o fcyc.o fcyc.c
+gcc -Wall -O2   -c -o clock.o clock.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+16:03:28 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+16:03:34 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+16:04:39 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+16:11:40 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+16:11:49 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+16:12:14 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+16:17:41 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o driver.o driver.c
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2   -c -o fcyc.o fcyc.c
+gcc -Wall -O2   -c -o clock.o clock.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+16:17:52 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+16:24:23 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+16:24:36 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+16:25:53 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+16:29:04 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+16:29:09 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+16:41:26 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+16:41:52 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+16:41:53 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+17:19:35 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+17:20:05 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+17:20:17 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+17:23:38 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+17:25:27 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+17:25:31 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+17:27:59 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+17:28:03 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+17:29:52 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+17:40:02 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+17:40:51 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+17:41:29 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+17:41:52 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+17:41:55 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+17:54:58 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+17:55:07 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+17:56:55 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+17:57:04 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+18:01:26 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+18:01:46 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+18:02:21 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+18:02:27 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+18:02:30 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+18:14:19 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+18:14:27 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+18:17:51 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+18:17:54 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+18:24:39 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+18:24:46 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+18:25:00 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+18:25:02 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+18:28:07 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+18:28:12 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+18:30:33 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+19:32:41 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+19:34:01 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+19:34:12 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+19:34:23 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+19:39:42 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+19:49:29 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+19:50:39 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+19:54:11 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+19:54:16 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+19:58:29 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+19:58:34 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+19:58:49 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+20:00:02 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+20:00:07 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+20:01:52 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+20:01:55 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+20:02:04 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+20:02:52 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+20:02:56 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+20:03:28 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+20:03:38 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+20:04:26 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+20:07:16 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+20:07:21 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+20:07:34 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+20:07:52 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+20:14:57 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+20:15:03 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+20:15:28 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+20:17:35 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+20:17:41 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+20:22:34 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+20:25:50 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+20:26:18 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+20:26:21 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+20:26:23 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+20:28:47 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+kernels.c:262:8: warning: unused variable 'iplusii' [-Wunused-variable]
+                        int iplusii = i + ii;
+                            ^
+kernels.c:263:8: warning: unused variable 'jplusjj' [-Wunused-variable]
+                        int jplusjj = j + jj;
+                            ^
+2 warnings generated.
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+20:28:52 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+20:29:08 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+kernels.c:262:8: warning: unused variable 'iplusii' [-Wunused-variable]
+                        int iplusii = i + ii;
+                            ^
+kernels.c:263:8: warning: unused variable 'jplusjj' [-Wunused-variable]
+                        int jplusjj = j + jj;
+                            ^
+2 warnings generated.
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+20:29:12 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+20:29:14 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+20:34:05 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+20:35:22 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+20:35:25 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+20:38:41 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+kernels.c:304:17: error: member reference type 'pixel' is not a pointer; maybe you meant to use '.'?
+                        current_pixel->red = (unsigned short)sum.red;
+                        ~~~~~~~~~~~~~^~
+                                     .
+kernels.c:304:23: error: expression is not assignable
+                        current_pixel->red = (unsigned short)sum.red;
+                        ~~~~~~~~~~~~~~~~~~ ^
+kernels.c:305:20: error: member reference type 'pixel' is not a pointer; maybe you meant to use '.'?
+                    current_pixel->green = (unsigned short)sum.green;
+                    ~~~~~~~~~~~~~^~
+                                 .
+kernels.c:305:28: error: expression is not assignable
+                    current_pixel->green = (unsigned short)sum.green;
+                    ~~~~~~~~~~~~~~~~~~~~ ^
+kernels.c:306:23: error: member reference type 'pixel' is not a pointer; maybe you meant to use '.'?
+                current_pixel->blue = (unsigned short)sum.blue;
+                ~~~~~~~~~~~~~^~
+                             .
+kernels.c:306:30: error: expression is not assignable
+                current_pixel->blue = (unsigned short)sum.blue;
+                ~~~~~~~~~~~~~~~~~~~ ^
+6 errors generated.
+make: *** [kernels.o] Error 1
+20:39:09 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+kernels.c:305:20: error: member reference type 'pixel' is not a pointer; maybe you meant to use '.'?
+                    current_pixel->green = (unsigned short)sum.green;
+                    ~~~~~~~~~~~~~^~
+                                 .
+kernels.c:305:28: error: expression is not assignable
+                    current_pixel->green = (unsigned short)sum.green;
+                    ~~~~~~~~~~~~~~~~~~~~ ^
+kernels.c:306:23: error: member reference type 'pixel' is not a pointer; maybe you meant to use '.'?
+                current_pixel->blue = (unsigned short)sum.blue;
+                ~~~~~~~~~~~~~^~
+                             .
+kernels.c:306:30: error: expression is not assignable
+                current_pixel->blue = (unsigned short)sum.blue;
+                ~~~~~~~~~~~~~~~~~~~ ^
+4 errors generated.
+make: *** [kernels.o] Error 1
+20:39:22 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+20:39:26 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+20:47:56 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+kernels.c:264:12: error: initializing 'pixel *' with an expression of incompatible type 'pixel'; take the address with &
+                        pixel * iiijjj = src[RIDX(i + ii, j+jj,dim)];
+                                ^        ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                         &
+kernels.c:269:10: error: member reference type 'pixel_sum' is not a pointer; maybe you meant to use '.'?
+                                  sum->red += (int) p.red * weight;
+                                  ~~~^~
+                                     .
+kernels.c:269:16: error: expression is not assignable
+                                  sum->red += (int) p.red * weight;
+                                  ~~~~~~~~ ^
+kernels.c:270:10: error: member reference type 'pixel_sum' is not a pointer; maybe you meant to use '.'?
+                                  sum->green += (int) p.green * weight;
+                                  ~~~^~
+                                     .
+kernels.c:270:18: error: expression is not assignable
+                                  sum->green += (int) p.green * weight;
+                                  ~~~~~~~~~~ ^
+kernels.c:271:10: error: member reference type 'pixel_sum' is not a pointer; maybe you meant to use '.'?
+                                  sum->blue += (int) p.blue * weight;
+                                  ~~~^~
+                                     .
+kernels.c:271:17: error: expression is not assignable
+                                  sum->blue += (int) p.blue * weight;
+                                  ~~~~~~~~~ ^
+kernels.c:277:10: error: member reference type 'pixel_sum' is not a pointer; maybe you meant to use '.'?
+                                  sum->red += (int) p.red * weight;
+                                  ~~~^~
+                                     .
+kernels.c:277:16: error: expression is not assignable
+                                  sum->red += (int) p.red * weight;
+                                  ~~~~~~~~ ^
+kernels.c:278:10: error: member reference type 'pixel_sum' is not a pointer; maybe you meant to use '.'?
+                                  sum->green += (int) p.green * weight;
+                                  ~~~^~
+                                     .
+kernels.c:278:18: error: expression is not assignable
+                                  sum->green += (int) p.green * weight;
+                                  ~~~~~~~~~~ ^
+kernels.c:279:10: error: member reference type 'pixel_sum' is not a pointer; maybe you meant to use '.'?
+                                  sum->blue += (int) p.blue * weight;
+                                  ~~~^~
+                                     .
+kernels.c:279:17: error: expression is not assignable
+                                  sum->blue += (int) p.blue * weight;
+                                  ~~~~~~~~~ ^
+kernels.c:286:10: error: member reference type 'pixel_sum' is not a pointer; maybe you meant to use '.'?
+                                  sum->red += (int) p.red * weight;
+                                  ~~~^~
+                                     .
+kernels.c:286:16: error: expression is not assignable
+                                  sum->red += (int) p.red * weight;
+                                  ~~~~~~~~ ^
+kernels.c:287:10: error: member reference type 'pixel_sum' is not a pointer; maybe you meant to use '.'?
+                                  sum->green += (int) p.green * weight;
+                                  ~~~^~
+                                     .
+kernels.c:287:18: error: expression is not assignable
+                                  sum->green += (int) p.green * weight;
+                                  ~~~~~~~~~~ ^
+kernels.c:288:10: error: member reference type 'pixel_sum' is not a pointer; maybe you meant to use '.'?
+                                  sum->blue += (int) p.blue * weight;
+                                  ~~~^~
+                                     .
+kernels.c:288:17: error: expression is not assignable
+                                  sum->blue += (int) p.blue * weight;
+                                  ~~~~~~~~~ ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+make: *** [kernels.o] Error 1
+20:49:49 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+kernels.c:259:25: warning: incompatible pointer types passing 'pixel_sum **' to parameter of type 'pixel_sum *'; remove & [-Wincompatible-pointer-types]
+                        initialize_pixel_sum(&sum);
+                                             ^~~~
+kernels.c:191:52: note: passing argument to parameter 'sum' here
+static inline void initialize_pixel_sum(pixel_sum *sum)
+                                                   ^
+kernels.c:350:43: error: member reference type 'pixel_sum *' is a pointer; maybe you meant to use '->'?
+                        current_pixel.red = (unsigned short)sum.red;
+                                                            ~~~^
+                                                               ->
+kernels.c:351:48: error: member reference type 'pixel_sum *' is a pointer; maybe you meant to use '->'?
+                    current_pixel.green = (unsigned short)sum.green;
+                                                          ~~~^
+                                                             ->
+kernels.c:352:50: error: member reference type 'pixel_sum *' is a pointer; maybe you meant to use '->'?
+                current_pixel.blue = (unsigned short)sum.blue;
+                                                     ~~~^
+                                                        ->
+1 warning and 3 errors generated.
+make: *** [kernels.o] Error 1
+20:51:26 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+kernels.c:259:25: warning: incompatible pointer types passing 'pixel_sum **' to parameter of type 'pixel_sum *'; remove & [-Wincompatible-pointer-types]
+                        initialize_pixel_sum(&sum);
+                                             ^~~~
+kernels.c:191:52: note: passing argument to parameter 'sum' here
+static inline void initialize_pixel_sum(pixel_sum *sum)
+                                                   ^
+kernels.c:350:17: error: member reference type 'pixel' is not a pointer; maybe you meant to use '.'?
+                        current_pixel->red = (unsigned short)sum.red;
+                        ~~~~~~~~~~~~~^~
+                                     .
+kernels.c:350:44: error: member reference type 'pixel_sum *' is a pointer; maybe you meant to use '->'?
+                        current_pixel->red = (unsigned short)sum.red;
+                                                             ~~~^
+                                                                ->
+kernels.c:350:23: error: expression is not assignable
+                        current_pixel->red = (unsigned short)sum.red;
+                        ~~~~~~~~~~~~~~~~~~ ^
+kernels.c:351:20: error: member reference type 'pixel' is not a pointer; maybe you meant to use '.'?
+                    current_pixel->green = (unsigned short)sum.green;
+                    ~~~~~~~~~~~~~^~
+                                 .
+kernels.c:351:49: error: member reference type 'pixel_sum *' is a pointer; maybe you meant to use '->'?
+                    current_pixel->green = (unsigned short)sum.green;
+                                                           ~~~^
+                                                              ->
+kernels.c:351:28: error: expression is not assignable
+                    current_pixel->green = (unsigned short)sum.green;
+                    ~~~~~~~~~~~~~~~~~~~~ ^
+kernels.c:352:23: error: member reference type 'pixel' is not a pointer; maybe you meant to use '.'?
+                current_pixel->blue = (unsigned short)sum.blue;
+                ~~~~~~~~~~~~~^~
+                             .
+kernels.c:352:51: error: member reference type 'pixel_sum *' is a pointer; maybe you meant to use '->'?
+                current_pixel->blue = (unsigned short)sum.blue;
+                                                      ~~~^
+                                                         ->
+kernels.c:352:30: error: expression is not assignable
+                current_pixel->blue = (unsigned short)sum.blue;
+                ~~~~~~~~~~~~~~~~~~~ ^
+1 warning and 9 errors generated.
+make: *** [kernels.o] Error 1
+20:51:48 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+kernels.c:259:25: warning: incompatible pointer types passing 'pixel_sum **' to parameter of type 'pixel_sum *'; remove & [-Wincompatible-pointer-types]
+                        initialize_pixel_sum(&sum);
+                                             ^~~~
+kernels.c:191:52: note: passing argument to parameter 'sum' here
+static inline void initialize_pixel_sum(pixel_sum *sum)
+                                                   ^
+kernels.c:350:17: error: member reference type 'pixel' is not a pointer; maybe you meant to use '.'?
+                        current_pixel->red = (unsigned short)sum->red;
+                        ~~~~~~~~~~~~~^~
+                                     .
+kernels.c:350:23: error: expression is not assignable
+                        current_pixel->red = (unsigned short)sum->red;
+                        ~~~~~~~~~~~~~~~~~~ ^
+kernels.c:351:20: error: member reference type 'pixel' is not a pointer; maybe you meant to use '.'?
+                    current_pixel->green = (unsigned short)sum->green;
+                    ~~~~~~~~~~~~~^~
+                                 .
+kernels.c:351:28: error: expression is not assignable
+                    current_pixel->green = (unsigned short)sum->green;
+                    ~~~~~~~~~~~~~~~~~~~~ ^
+kernels.c:352:23: error: member reference type 'pixel' is not a pointer; maybe you meant to use '.'?
+                current_pixel->blue = (unsigned short)sum->blue;
+                ~~~~~~~~~~~~~^~
+                             .
+kernels.c:352:30: error: expression is not assignable
+                current_pixel->blue = (unsigned short)sum->blue;
+                ~~~~~~~~~~~~~~~~~~~ ^
+1 warning and 6 errors generated.
+make: *** [kernels.o] Error 1
+20:52:02 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+kernels.c:259:25: warning: incompatible pointer types passing 'pixel_sum **' to parameter of type 'pixel_sum *'; remove & [-Wincompatible-pointer-types]
+                        initialize_pixel_sum(&sum);
+                                             ^~~~
+kernels.c:191:52: note: passing argument to parameter 'sum' here
+static inline void initialize_pixel_sum(pixel_sum *sum)
+                                                   ^
+1 warning generated.
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+20:53:18 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+kernels.c:259:4: warning: variable 'sum' is uninitialized when used here [-Wuninitialized]
+                        sum->red = 0;
+                        ^~~
+kernels.c:257:18: note: initialize the variable 'sum' to silence this warning
+                        pixel_sum* sum;
+                                      ^
+                                       = NULL
+1 warning generated.
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+20:53:42 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+20:53:53 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+20:53:56 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+20:53:58 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+20:54:40 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+21:09:09 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+21:09:14 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+kernels.c:259:4: warning: variable 'sum' is uninitialized when used here [-Wuninitialized]
+                        sum->red = 0;
+                        ^~~
+kernels.c:257:18: note: initialize the variable 'sum' to silence this warning
+                        pixel_sum* sum;
+                                      ^
+                                       = NULL
+1 warning generated.
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+21:10:36 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+kernels.c:259:4: warning: variable 'sum' is uninitialized when used here [-Wuninitialized]
+                        sum->red = 0;
+                        ^~~
+kernels.c:257:18: note: initialize the variable 'sum' to silence this warning
+                        pixel_sum* sum;
+                                      ^
+                                       = NULL
+1 warning generated.
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+21:11:03 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+21:11:06 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+21:12:00 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+kernels.c:259:4: warning: variable 'sum' is uninitialized when used here [-Wuninitialized]
+                        sum->red = 0;
+                        ^~~
+kernels.c:257:18: note: initialize the variable 'sum' to silence this warning
+                        pixel_sum* sum;
+                                      ^
+                                       = NULL
+1 warning generated.
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+21:12:53 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+kernels.c:259:4: warning: variable 'sum' is uninitialized when used here [-Wuninitialized]
+                        sum->red = 0;
+                        ^~~
+kernels.c:257:18: note: initialize the variable 'sum' to silence this warning
+                        pixel_sum* sum;
+                                      ^
+                                       = NULL
+1 warning generated.
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+21:13:00 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+21:16:22 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+kernels.c:260:4: warning: variable 'sum' is uninitialized when used here [-Wuninitialized]
+                        sum->red = 0;
+                        ^~~
+kernels.c:258:18: note: initialize the variable 'sum' to silence this warning
+                        pixel_sum* sum;
+                                      ^
+                                       = NULL
+kernels.c:373:4: warning: variable 'sum' is uninitialized when used here [-Wuninitialized]
+                        sum->red = 0;
+                        ^~~
+kernels.c:371:18: note: initialize the variable 'sum' to silence this warning
+                        pixel_sum* sum;
+                                      ^
+                                       = NULL
+2 warnings generated.
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+21:16:41 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+21:32:26 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+kernels.c:260:4: warning: variable 'sum' is uninitialized when used here [-Wuninitialized]
+                        sum->red = 0;
+                        ^~~
+kernels.c:258:18: note: initialize the variable 'sum' to silence this warning
+                        pixel_sum* sum;
+                                      ^
+                                       = NULL
+kernels.c:373:4: warning: variable 'sum' is uninitialized when used here [-Wuninitialized]
+                        sum->red = 0;
+                        ^~~
+kernels.c:371:18: note: initialize the variable 'sum' to silence this warning
+                        pixel_sum* sum;
+                                      ^
+                                       = NULL
+2 warnings generated.
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+21:32:32 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+21:33:38 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+kernels.c:260:4: warning: variable 'sum' is uninitialized when used here [-Wuninitialized]
+                        sum->red = 0;
+                        ^~~
+kernels.c:258:18: note: initialize the variable 'sum' to silence this warning
+                        pixel_sum* sum;
+                                      ^
+                                       = NULL
+kernels.c:373:4: warning: variable 'sum' is uninitialized when used here [-Wuninitialized]
+                        sum->red = 0;
+                        ^~~
+kernels.c:371:18: note: initialize the variable 'sum' to silence this warning
+                        pixel_sum* sum;
+                                      ^
+                                       = NULL
+2 warnings generated.
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+21:33:43 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+21:38:07 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+kernels.c:261:4: warning: variable 'sum' is uninitialized when used here [-Wuninitialized]
+                        sum->red = 0;
+                        ^~~
+kernels.c:259:18: note: initialize the variable 'sum' to silence this warning
+                        pixel_sum* sum;
+                                      ^
+                                       = NULL
+kernels.c:258:28: warning: variable 'ii' is uninitialized when used here [-Wuninitialized]
+                        double weight = weights[ii][jj];
+                                                ^~
+kernels.c:257:10: note: initialize the variable 'ii' to silence this warning
+                        int ii, jj;
+                              ^
+                               = 0
+kernels.c:258:32: warning: variable 'jj' is uninitialized when used here [-Wuninitialized]
+                        double weight = weights[ii][jj];
+                                                    ^~
+kernels.c:257:14: note: initialize the variable 'jj' to silence this warning
+                        int ii, jj;
+                                  ^
+                                   = 0
+kernels.c:389:4: warning: variable 'sum' is uninitialized when used here [-Wuninitialized]
+                        sum->red = 0;
+                        ^~~
+kernels.c:387:18: note: initialize the variable 'sum' to silence this warning
+                        pixel_sum* sum;
+                                      ^
+                                       = NULL
+4 warnings generated.
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+21:38:13 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+21:39:11 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+kernels.c:261:4: warning: variable 'sum' is uninitialized when used here [-Wuninitialized]
+                        sum->red = 0;
+                        ^~~
+kernels.c:259:18: note: initialize the variable 'sum' to silence this warning
+                        pixel_sum* sum;
+                                      ^
+                                       = NULL
+kernels.c:258:28: warning: variable 'ii' is uninitialized when used here [-Wuninitialized]
+                        double weight = weights[ii][jj];
+                                                ^~
+kernels.c:257:10: note: initialize the variable 'ii' to silence this warning
+                        int ii, jj;
+                              ^
+                               = 0
+kernels.c:258:32: warning: variable 'jj' is uninitialized when used here [-Wuninitialized]
+                        double weight = weights[ii][jj];
+                                                    ^~
+kernels.c:257:14: note: initialize the variable 'jj' to silence this warning
+                        int ii, jj;
+                                  ^
+                                   = 0
+kernels.c:389:4: warning: variable 'sum' is uninitialized when used here [-Wuninitialized]
+                        sum->red = 0;
+                        ^~~
+kernels.c:387:18: note: initialize the variable 'sum' to silence this warning
+                        pixel_sum* sum;
+                                      ^
+                                       = NULL
+4 warnings generated.
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+21:39:15 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+21:40:51 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+kernels.c:261:4: warning: variable 'sum' is uninitialized when used here [-Wuninitialized]
+                        sum->red = 0;
+                        ^~~
+kernels.c:259:18: note: initialize the variable 'sum' to silence this warning
+                        pixel_sum* sum;
+                                      ^
+                                       = NULL
+kernels.c:258:28: warning: variable 'ii' is uninitialized when used here [-Wuninitialized]
+                        double weight = weights[ii][jj];
+                                                ^~
+kernels.c:257:10: note: initialize the variable 'ii' to silence this warning
+                        int ii, jj;
+                              ^
+                               = 0
+kernels.c:258:32: warning: variable 'jj' is uninitialized when used here [-Wuninitialized]
+                        double weight = weights[ii][jj];
+                                                    ^~
+kernels.c:257:14: note: initialize the variable 'jj' to silence this warning
+                        int ii, jj;
+                                  ^
+                                   = 0
+kernels.c:389:4: warning: variable 'sum' is uninitialized when used here [-Wuninitialized]
+                        sum->red = 0;
+                        ^~~
+kernels.c:387:18: note: initialize the variable 'sum' to silence this warning
+                        pixel_sum* sum;
+                                      ^
+                                       = NULL
+4 warnings generated.
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+21:41:10 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+kernels.c:260:4: warning: variable 'sum' is uninitialized when used here [-Wuninitialized]
+                        sum->red = 0;
+                        ^~~
+kernels.c:258:18: note: initialize the variable 'sum' to silence this warning
+                        pixel_sum* sum;
+                                      ^
+                                       = NULL
+kernels.c:390:4: warning: variable 'sum' is uninitialized when used here [-Wuninitialized]
+                        sum->red = 0;
+                        ^~~
+kernels.c:388:18: note: initialize the variable 'sum' to silence this warning
+                        pixel_sum* sum;
+                                      ^
+                                       = NULL
+2 warnings generated.
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+21:42:37 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+kernels.c:390:4: warning: variable 'sum' is uninitialized when used here [-Wuninitialized]
+                        sum->red = 0;
+                        ^~~
+kernels.c:388:18: note: initialize the variable 'sum' to silence this warning
+                        pixel_sum* sum;
+                                      ^
+                                       = NULL
+1 warning generated.
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+21:42:42 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+21:43:55 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+21:44:23 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+21:44:26 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+21:46:45 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+kernels.c:390:4: warning: variable 'sum' is uninitialized when used here [-Wuninitialized]
+                        sum->red = 0;
+                        ^~~
+kernels.c:388:18: note: initialize the variable 'sum' to silence this warning
+                        pixel_sum* sum;
+                                      ^
+                                       = NULL
+1 warning generated.
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+21:46:49 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+21:48:47 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+kernels.c:260:4: warning: variable 'sum' is uninitialized when used here [-Wuninitialized]
+                        sum->red = 0;
+                        ^~~
+kernels.c:258:18: note: initialize the variable 'sum' to silence this warning
+                        pixel_sum* sum;
+                                      ^
+                                       = NULL
+kernels.c:388:4: warning: variable 'sum' is uninitialized when used here [-Wuninitialized]
+                        sum->red = 0;
+                        ^~~
+kernels.c:386:18: note: initialize the variable 'sum' to silence this warning
+                        pixel_sum* sum;
+                                      ^
+                                       = NULL
+2 warnings generated.
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+21:48:54 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+21:49:23 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+21:50:21 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+21:51:26 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+kernels.c:389:4: warning: variable 'sum' is uninitialized when used here [-Wuninitialized]
+                        sum->red = 0;
+                        ^~~
+kernels.c:387:18: note: initialize the variable 'sum' to silence this warning
+                        pixel_sum* sum;
+                                      ^
+                                       = NULL
+1 warning generated.
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+21:52:18 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+kernels.c:388:15: error: expected identifier or '('
+                        pixel_sum* = &suminst;
+                                   ^
+kernels.c:390:4: error: use of undeclared identifier 'sum'
+                        sum->red = 0;
+                        ^
+kernels.c:391:4: error: use of undeclared identifier 'sum'
+                        sum->green = 0;
+                        ^
+kernels.c:392:4: error: use of undeclared identifier 'sum'
+                        sum->blue = 0;
+                        ^
+kernels.c:403:7: error: use of undeclared identifier 'sum'
+                                  sum->red += (int) p.red * weight;
+                                  ^
+kernels.c:404:7: error: use of undeclared identifier 'sum'
+                                  sum->green += (int) p.green * weight;
+                                  ^
+kernels.c:405:7: error: use of undeclared identifier 'sum'
+                                  sum->blue += (int) p.blue * weight;
+                                  ^
+kernels.c:411:7: error: use of undeclared identifier 'sum'
+                                  sum->red += (int) p.red * weight;
+                                  ^
+kernels.c:412:7: error: use of undeclared identifier 'sum'
+                                  sum->green += (int) p.green * weight;
+                                  ^
+kernels.c:413:7: error: use of undeclared identifier 'sum'
+                                  sum->blue += (int) p.blue * weight;
+                                  ^
+kernels.c:420:7: error: use of undeclared identifier 'sum'
+                                  sum->red += (int) p.red * weight;
+                                  ^
+kernels.c:421:7: error: use of undeclared identifier 'sum'
+                                  sum->green += (int) p.green * weight;
+                                  ^
+kernels.c:422:7: error: use of undeclared identifier 'sum'
+                                  sum->blue += (int) p.blue * weight;
+                                  ^
+kernels.c:431:7: error: use of undeclared identifier 'sum'
+                                  sum->red += (int) p.red * weight;
+                                  ^
+kernels.c:432:7: error: use of undeclared identifier 'sum'
+                                  sum->green += (int) p.green * weight;
+                                  ^
+kernels.c:433:7: error: use of undeclared identifier 'sum'
+                                  sum->blue += (int) p.blue * weight;
+                                  ^
+kernels.c:440:7: error: use of undeclared identifier 'sum'
+                                  sum->red += (int) p.red * weight;
+                                  ^
+kernels.c:441:7: error: use of undeclared identifier 'sum'
+                                  sum->green += (int) p.green * weight;
+                                  ^
+kernels.c:442:7: error: use of undeclared identifier 'sum'
+                                  sum->blue += (int) p.blue * weight;
+                                  ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+make: *** [kernels.o] Error 1
+21:52:35 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+21:52:41 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+21:54:17 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+kernels.c:261:4: warning: variable 'sum' is uninitialized when used here [-Wuninitialized]
+                        sum->red = 0;
+                        ^~~
+kernels.c:259:18: note: initialize the variable 'sum' to silence this warning
+                        pixel_sum* sum;
+                                      ^
+                                       = NULL
+kernels.c:390:4: warning: variable 'sum' is uninitialized when used here [-Wuninitialized]
+                        sum->red = 0;
+                        ^~~
+kernels.c:388:18: note: initialize the variable 'sum' to silence this warning
+                        pixel_sum* sum;
+                                      ^
+                                       = NULL
+2 warnings generated.
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+21:54:23 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+21:57:01 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+kernels.c:259:15: warning: incompatible pointer types initializing 'pixel_sum *' with an expression of type 'pixel_sum **'; remove & [-Wincompatible-pointer-types]
+                        pixel_sum* sum = &inst;
+                                   ^     ~~~~~
+1 warning generated.
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+21:57:14 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+21:57:18 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+22:01:11 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+kernels.c:371:8: error: redefinition of 'ii'
+                        int ii, jj;
+                            ^
+kernels.c:257:8: note: previous definition is here
+                        int ii, jj;
+                            ^
+kernels.c:371:12: error: redefinition of 'jj'
+                        int ii, jj;
+                                ^
+kernels.c:257:12: note: previous definition is here
+                        int ii, jj;
+                                ^
+kernels.c:372:14: error: redefinition of 'inst'
+                        pixel_sum inst;
+                                  ^
+kernels.c:258:14: note: previous definition is here
+                        pixel_sum inst;
+                                  ^
+kernels.c:373:15: error: redefinition of 'sum'
+                        pixel_sum* sum = &inst;
+                                   ^
+kernels.c:259:15: note: previous definition is here
+                        pixel_sum* sum = &inst;
+                                   ^
+kernels.c:374:10: error: redefinition of 'current_pixel'
+                        pixel current_pixel;
+                              ^
+kernels.c:260:10: note: previous definition is here
+                        pixel current_pixel;
+                              ^
+kernels.c:381:8: error: redefinition of 'iplusii'
+                        int iplusii = i + ii;
+                            ^
+kernels.c:267:8: note: previous definition is here
+                        int iplusii = i + ii;
+                            ^
+6 errors generated.
+make: *** [kernels.o] Error 1
+22:01:34 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+kernels.c:381:8: error: redefinition of 'iplusii'
+                        int iplusii = i + ii;
+                            ^
+kernels.c:267:8: note: previous definition is here
+                        int iplusii = i + ii;
+                            ^
+1 error generated.
+make: *** [kernels.o] Error 1
+22:01:48 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+22:01:56 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+22:06:04 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+22:06:07 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+22:06:14 **** Clean-only build of configuration Debug for project PERFLAB-HANDOUT ****
+make clean 
+rm -f driver.o kernels.o fcyc.o clock.o driver core *~ *.o
+22:06:15 **** Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o driver.o driver.c
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2   -c -o fcyc.o fcyc.c
+gcc -Wall -O2   -c -o clock.o clock.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+22:06:19 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+22:23:29 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+22:23:36 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+22:24:19 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+22:24:23 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+22:29:51 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+22:29:55 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+22:34:23 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+22:34:41 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+22:35:56 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+kernels.c:322:16: error: use of undeclared identifier 'weights'
+                                  weight = weights[ii][jj];
+                                           ^
+kernels.c:354:16: error: use of undeclared identifier 'weights'
+                                  weight = weights[ii][jj];
+                                           ^
+2 errors generated.
+make: *** [kernels.o] Error 1
+22:36:15 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+kernels.c:354:16: error: use of undeclared identifier 'weights'
+                                  weight = weights[ii][jj];
+                                           ^
+1 error generated.
+make: *** [kernels.o] Error 1
+22:36:22 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+kernels.c:354:16: error: use of undeclared identifier 'weights'
+                                  weight = weights[ii][jj];
+                                           ^
+1 error generated.
+make: *** [kernels.o] Error 1
+22:36:31 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+kernels.c:268:11: warning: unused variable 'weight' [-Wunused-variable]
+                        double weight;
+                               ^
+1 warning generated.
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+22:36:39 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+22:36:42 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+22:36:59 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+22:39:19 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+22:39:23 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+make: Nothing to be done for `all'.
+12:23:48 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+12:27:35 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+12:28:42 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver

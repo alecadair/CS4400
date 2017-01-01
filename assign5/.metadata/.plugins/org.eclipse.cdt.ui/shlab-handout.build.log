@@ -1,0 +1,15 @@
+21:29:07 **** Incremental Build of configuration Debug for project shlab-handout ****
+make all 
+Building file: ../whoosh.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"whoosh.d" -MT"whoosh.o" -o "whoosh.o" "../whoosh.c"
+Finished building: ../whoosh.c
+ 
+Building target: shlab-handout
+Invoking: Cross GCC Linker
+gcc  -o "shlab-handout"  ./csapp.o ./fail.o ./parse.o ./whoosh.o   
+Finished building target: shlab-handout
+ 
+
+21:29:07 Build Finished (took 109ms)
+

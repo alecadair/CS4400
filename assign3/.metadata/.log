@@ -1,0 +1,48 @@
+!SESSION 2016-09-30 16:31:20.202 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/alecadair/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -keyring /Users/alecadair/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2016-09-30 16:33:18.163
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.core.resources 4 77 2016-09-30 16:37:56.566
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2016-09-30 16:37:56.566
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2016-09-30 16:37:56.566
+!MESSAGE /Users/alecadair/Documents/CS4400/assign3/perflab-handout overlaps the location of another project: 'perflab-handout'
+
+!ENTRY org.eclipse.core.resources 4 77 2016-09-30 16:39:08.917
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2016-09-30 16:39:08.917
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2016-09-30 16:39:08.917
+!MESSAGE /Users/alecadair/Documents/CS4400/assign3/perflab-handout overlaps the location of another project: 'perflab-handout'
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-09-30 16:40:50.467
+!MESSAGE Indexed 'PERFLAB-HANDOUT' (4 sources, 94 headers) in 6.59 sec: 3,191 declarations; 4,639 references; 0 unresolved inclusions; 6 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.ui 4 0 2016-09-30 18:13:02.456
+!MESSAGE Error in CDT UI during reconcile
+!STACK 1
+C Model Exception: C Model Status [Element kernels.c does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:484)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:573)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:62)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:635)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:362)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:78)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:63)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:87)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:73)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:349)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2016-09-30 18:13:02.540
+!MESSAGE Element kernels.c does not exist.

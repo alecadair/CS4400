@@ -1,15 +1,1065 @@
-23:28:37 **** Incremental Build of configuration Debug for project MatchLab ****
-make all 
-gcc -std=c11 -g -Wall -c matchlab.c
-gcc -std=c11 -g -Wall -c matchlab.o -o matchlab
-gcc: warning: matchlab.o: linker input file unused because linking not done
-23:33:36 **** Incremental Build of configuration Debug for project MatchLab ****
-make all 
-gcc -std=c11 -g -Wall  matchlab.o -o matchlab
-23:35:30 **** Clean-only build of configuration Debug for project MatchLab ****
-make clean 
-rm *.o matchlab
-23:35:37 **** Build of configuration Debug for project MatchLab ****
+13:00:10 **** Build of configuration Debug for project MatchLab ****
 make all 
 gcc -std=c11 -g -Wall  -c matchlab.c
 gcc -std=c11 -g -Wall  matchlab.o -o matchlab
+13:00:17 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+13:02:16 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+13:02:18 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+13:11:44 **** Clean-only build of configuration Debug for project MatchLab ****
+make clean 
+rm *.o matchlab
+13:11:52 **** Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+gcc -std=c11 -g -Wall  matchlab.o -o matchlab
+13:12:03 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+13:12:07 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+13:27:02 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+13:38:11 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+13:39:36 **** Clean-only build of configuration Debug for project MatchLab ****
+make clean 
+rm *.o matchlab
+13:39:39 **** Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+gcc -std=c11 -g -Wall  matchlab.o -o matchlab
+13:40:49 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+gcc -std=c11 -g -Wall  matchlab.o -o matchlab
+13:40:53 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+13:47:24 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+gcc -std=c11 -g -Wall  matchlab.o -o matchlab
+13:47:32 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+13:50:40 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+gcc -std=c11 -g -Wall  matchlab.o -o matchlab
+13:51:05 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+13:53:47 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+13:54:04 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+14:03:24 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+matchlab.c:220:5: warning: implicit declaration of function 'print' is invalid in C99 [-Wimplicit-function-declaration]
+                                print("no\n");
+                                ^
+matchlab.c:265:1: error: expected '}'
+^
+matchlab.c:42:39: note: to match this '{'
+int main(int argc, const char* argv[]){
+                                      ^
+1 warning and 1 error generated.
+make: *** [matchlab.o] Error 1
+14:03:41 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+matchlab.c:220:5: warning: implicit declaration of function 'print' is invalid in C99 [-Wimplicit-function-declaration]
+                                print("no\n");
+                                ^
+1 warning generated.
+gcc -std=c11 -g -Wall  matchlab.o -o matchlab
+Undefined symbols for architecture x86_64:
+  "_print", referenced from:
+      _main in matchlab.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [matchlab] Error 1
+14:03:55 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+matchlab.c:220:5: warning: implicit declaration of function 'print' is invalid in C99 [-Wimplicit-function-declaration]
+                                print("no\n");
+                                ^
+matchlab.c:266:1: error: expected '}'
+^
+matchlab.c:42:39: note: to match this '{'
+int main(int argc, const char* argv[]){
+                                      ^
+1 warning and 1 error generated.
+make: *** [matchlab.o] Error 1
+14:05:56 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+matchlab.c:221:5: warning: implicit declaration of function 'print' is invalid in C99 [-Wimplicit-function-declaration]
+                                print("no\n");
+                                ^
+matchlab.c:267:1: error: expected '}'
+^
+matchlab.c:91:41: note: to match this '{'
+        for(int i = flagCount+1; i < argc; i++){
+                                               ^
+matchlab.c:267:1: error: expected '}'
+^
+matchlab.c:42:39: note: to match this '{'
+int main(int argc, const char* argv[]){
+                                      ^
+1 warning and 2 errors generated.
+make: *** [matchlab.o] Error 1
+14:07:56 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+matchlab.c:221:5: warning: implicit declaration of function 'print' is invalid in C99 [-Wimplicit-function-declaration]
+                                print("no\n");
+                                ^
+matchlab.c:259:1: error: expected '}'
+^
+matchlab.c:42:39: note: to match this '{'
+int main(int argc, const char* argv[]){
+                                      ^
+1 warning and 1 error generated.
+make: *** [matchlab.o] Error 1
+14:08:57 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+matchlab.c:259:1: error: expected '}'
+^
+matchlab.c:42:39: note: to match this '{'
+int main(int argc, const char* argv[]){
+                                      ^
+1 error generated.
+make: *** [matchlab.o] Error 1
+14:10:04 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+gcc -std=c11 -g -Wall  matchlab.o -o matchlab
+14:28:02 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+gcc -std=c11 -g -Wall  matchlab.o -o matchlab
+14:28:21 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+14:28:41 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+14:28:58 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+14:29:15 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+14:29:31 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+14:29:59 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+14:31:02 **** Clean-only build of configuration Debug for project MatchLab ****
+make clean 
+rm *.o matchlab
+14:31:04 **** Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+gcc -std=c11 -g -Wall  matchlab.o -o matchlab
+14:31:08 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+14:31:23 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+gcc -std=c11 -g -Wall  matchlab.o -o matchlab
+14:31:25 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+14:32:36 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+gcc -std=c11 -g -Wall  matchlab.o -o matchlab
+14:32:41 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+14:32:43 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+14:34:41 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+14:36:27 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+14:40:01 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+matchlab.c:94:12: error: read-only variable is not assignable
+                        word[j] = argv[i][j];
+                        ~~~~~~~ ^
+1 error generated.
+make: *** [matchlab.o] Error 1
+14:40:24 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+gcc -std=c11 -g -Wall  matchlab.o -o matchlab
+14:40:33 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+14:40:38 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+14:42:19 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+gcc -std=c11 -g -Wall  matchlab.o -o matchlab
+14:42:24 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+14:42:28 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+14:44:15 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+gcc -std=c11 -g -Wall  matchlab.o -o matchlab
+14:44:18 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+14:46:03 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+gcc -std=c11 -g -Wall  matchlab.o -o matchlab
+14:46:08 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+14:47:14 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+gcc -std=c11 -g -Wall  matchlab.o -o matchlab
+14:47:26 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+14:48:59 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+gcc -std=c11 -g -Wall  matchlab.o -o matchlab
+14:49:04 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+14:49:06 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+14:49:21 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+14:51:18 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+gcc -std=c11 -g -Wall  matchlab.o -o matchlab
+14:51:23 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+14:51:52 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+14:52:30 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+matchlab.c:225:10: warning: unused variable 'c' [-Wunused-variable]
+                                char c = word[j];
+                                     ^
+1 warning generated.
+gcc -std=c11 -g -Wall  matchlab.o -o matchlab
+14:52:34 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+14:53:23 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+gcc -std=c11 -g -Wall  matchlab.o -o matchlab
+14:53:31 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+14:54:44 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+matchlab.c:225:10: warning: unused variable 'c' [-Wunused-variable]
+                                char c = word[j];
+                                     ^
+1 warning generated.
+gcc -std=c11 -g -Wall  matchlab.o -o matchlab
+14:54:48 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+14:54:52 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+14:57:10 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+matchlab.c:225:10: warning: unused variable 'c' [-Wunused-variable]
+                                char c = word[j];
+                                     ^
+1 warning generated.
+gcc -std=c11 -g -Wall  matchlab.o -o matchlab
+14:57:15 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+16:22:50 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+16:26:54 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+matchlab.c:225:10: warning: unused variable 'c' [-Wunused-variable]
+                                char c = word[j];
+                                     ^
+1 warning generated.
+gcc -std=c11 -g -Wall  matchlab.o -o matchlab
+16:27:07 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+16:27:10 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+16:30:55 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+16:31:25 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+16:43:24 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+matchlab.c:160:11: warning: unused variable 'c' [-Wunused-variable]
+                                        char c = word[j];
+                                             ^
+1 warning generated.
+gcc -std=c11 -g -Wall  matchlab.o -o matchlab
+16:43:45 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+matchlab.c:159:10: warning: unused variable 'j' [-Wunused-variable]
+                                        int j = letterCount;
+                                            ^
+1 warning generated.
+gcc -std=c11 -g -Wall  matchlab.o -o matchlab
+16:43:50 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+16:45:01 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+16:45:59 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+matchlab.c:159:10: warning: unused variable 'j' [-Wunused-variable]
+                                        int j = letterCount;
+                                            ^
+1 warning generated.
+gcc -std=c11 -g -Wall  matchlab.o -o matchlab
+16:46:12 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+16:46:19 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+16:46:29 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+16:47:10 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+16:47:14 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+16:49:35 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+16:49:56 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+16:50:31 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+16:50:54 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+17:11:49 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+matchlab.c:47:9: warning: expression which evaluates to zero treated as a null pointer constant of type 'char *' [-Wnon-literal-null-conversion]
+        return '\0';
+               ^~~~
+matchlab.c:50:7: error: redefinition of 'convertTypeBString'
+char* convertTypeBString(char* string){
+      ^
+matchlab.c:46:7: note: previous definition is here
+char* convertTypeBString(char* string){
+      ^
+matchlab.c:51:9: warning: expression which evaluates to zero treated as a null pointer constant of type 'char *' [-Wnon-literal-null-conversion]
+        return '\0';
+               ^~~~
+matchlab.c:154:10: warning: unused variable 'j' [-Wunused-variable]
+                                        int j = letterCount;
+                                            ^
+matchlab.c:273:50: warning: passing 'const char *' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+                                                char* convertedString = convertTypeAString(word);
+                                                                                           ^~~~
+matchlab.c:32:32: note: passing argument to parameter 'string' here
+char* convertTypeAString(char* string){
+                               ^
+matchlab.c:274:14: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+                                                printf(convertedString);
+                                                       ^~~~~~~~~~~~~~~
+5 warnings and 1 error generated.
+make: *** [matchlab.o] Error 1
+17:12:46 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+matchlab.c:36:15: error: use of undeclared identifier 'string'
+                        lastChar = string[i];
+                                   ^
+matchlab.c:47:9: warning: expression which evaluates to zero treated as a null pointer constant of type 'char *' [-Wnon-literal-null-conversion]
+        return '\0';
+               ^~~~
+matchlab.c:51:9: warning: expression which evaluates to zero treated as a null pointer constant of type 'char *' [-Wnon-literal-null-conversion]
+        return '\0';
+               ^~~~
+matchlab.c:154:10: warning: unused variable 'j' [-Wunused-variable]
+                                        int j = letterCount;
+                                            ^
+matchlab.c:273:50: warning: passing 'const char *' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+                                                char* convertedString = convertTypeAString(word);
+                                                                                           ^~~~
+matchlab.c:32:32: note: passing argument to parameter 'word' here
+char* convertTypeAString(char* word){
+                               ^
+matchlab.c:274:14: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+                                                printf(convertedString);
+                                                       ^~~~~~~~~~~~~~~
+5 warnings and 1 error generated.
+make: *** [matchlab.o] Error 1
+17:12:59 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+matchlab.c:47:9: warning: expression which evaluates to zero treated as a null pointer constant of type 'char *' [-Wnon-literal-null-conversion]
+        return '\0';
+               ^~~~
+matchlab.c:51:9: warning: expression which evaluates to zero treated as a null pointer constant of type 'char *' [-Wnon-literal-null-conversion]
+        return '\0';
+               ^~~~
+matchlab.c:154:10: warning: unused variable 'j' [-Wunused-variable]
+                                        int j = letterCount;
+                                            ^
+matchlab.c:273:50: warning: passing 'const char *' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+                                                char* convertedString = convertTypeAString(word);
+                                                                                           ^~~~
+matchlab.c:32:32: note: passing argument to parameter 'word' here
+char* convertTypeAString(char* word){
+                               ^
+matchlab.c:274:14: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+                                                printf(convertedString);
+                                                       ^~~~~~~~~~~~~~~
+5 warnings generated.
+gcc -std=c11 -g -Wall  matchlab.o -o matchlab
+17:13:14 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+matchlab.c:47:9: warning: expression which evaluates to zero treated as a null pointer constant of type 'char *' [-Wnon-literal-null-conversion]
+        return '\0';
+               ^~~~
+matchlab.c:51:9: warning: expression which evaluates to zero treated as a null pointer constant of type 'char *' [-Wnon-literal-null-conversion]
+        return '\0';
+               ^~~~
+matchlab.c:154:10: warning: unused variable 'j' [-Wunused-variable]
+                                        int j = letterCount;
+                                            ^
+matchlab.c:273:50: warning: passing 'const char *' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+                                                char* convertedString = convertTypeAString(word);
+                                                                                           ^~~~
+matchlab.c:32:32: note: passing argument to parameter 'word' here
+char* convertTypeAString(char* word){
+                               ^
+matchlab.c:274:14: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+                                                printf(convertedString);
+                                                       ^~~~~~~~~~~~~~~
+5 warnings generated.
+gcc -std=c11 -g -Wall  matchlab.o -o matchlab
+17:13:54 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+matchlab.c:48:9: warning: variable 'result' is uninitialized when used here [-Wuninitialized]
+        return result;
+               ^~~~~~
+matchlab.c:47:14: note: initialize the variable 'result' to silence this warning
+        char* result;
+                    ^
+                     = NULL
+matchlab.c:53:9: warning: variable 'result' is uninitialized when used here [-Wuninitialized]
+        return result;
+               ^~~~~~
+matchlab.c:52:14: note: initialize the variable 'result' to silence this warning
+        char* result;
+                    ^
+                     = NULL
+matchlab.c:156:10: warning: unused variable 'j' [-Wunused-variable]
+                                        int j = letterCount;
+                                            ^
+matchlab.c:275:50: warning: passing 'const char *' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+                                                char* convertedString = convertTypeAString(word);
+                                                                                           ^~~~
+matchlab.c:32:32: note: passing argument to parameter 'word' here
+char* convertTypeAString(char* word){
+                               ^
+matchlab.c:276:14: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+                                                printf(convertedString);
+                                                       ^~~~~~~~~~~~~~~
+5 warnings generated.
+gcc -std=c11 -g -Wall  matchlab.o -o matchlab
+17:14:16 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+matchlab.c:48:9: warning: address of stack memory associated with local variable 'result' returned [-Wreturn-stack-address]
+        return result;
+               ^~~~~~
+matchlab.c:53:9: warning: incompatible pointer types returning 'char *[1024]' from a function with result type 'char *' [-Wincompatible-pointer-types]
+        return result;
+               ^~~~~~
+matchlab.c:53:9: warning: address of stack memory associated with local variable 'result' returned [-Wreturn-stack-address]
+        return result;
+               ^~~~~~
+matchlab.c:156:10: warning: unused variable 'j' [-Wunused-variable]
+                                        int j = letterCount;
+                                            ^
+matchlab.c:275:50: warning: passing 'const char *' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+                                                char* convertedString = convertTypeAString(word);
+                                                                                           ^~~~
+matchlab.c:32:32: note: passing argument to parameter 'word' here
+char* convertTypeAString(char* word){
+                               ^
+matchlab.c:276:14: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+                                                printf(convertedString);
+                                                       ^~~~~~~~~~~~~~~
+6 warnings generated.
+gcc -std=c11 -g -Wall  matchlab.o -o matchlab
+17:14:41 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+matchlab.c:46:38: error: brackets go after the identifier
+char[] convertTypeBString(char* word){
+    ~~                               ^
+                                     []
+matchlab.c:46:26: error: function cannot return array type 'char []'
+char[] convertTypeBString(char* word){
+                         ^
+matchlab.c:48:9: warning: incompatible pointer to integer conversion returning 'char [1024]' from a function with result type 'int' [-Wint-conversion]
+        return result;
+               ^~~~~~
+matchlab.c:53:9: warning: incompatible pointer types returning 'char *[1024]' from a function with result type 'char *' [-Wincompatible-pointer-types]
+        return result;
+               ^~~~~~
+matchlab.c:53:9: warning: address of stack memory associated with local variable 'result' returned [-Wreturn-stack-address]
+        return result;
+               ^~~~~~
+matchlab.c:156:10: warning: unused variable 'j' [-Wunused-variable]
+                                        int j = letterCount;
+                                            ^
+matchlab.c:275:50: warning: passing 'const char *' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+                                                char* convertedString = convertTypeAString(word);
+                                                                                           ^~~~
+matchlab.c:32:32: note: passing argument to parameter 'word' here
+char* convertTypeAString(char* word){
+                               ^
+matchlab.c:276:14: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+                                                printf(convertedString);
+                                                       ^~~~~~~~~~~~~~~
+6 warnings and 2 errors generated.
+make: *** [matchlab.o] Error 1
+17:14:47 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+matchlab.c:48:9: warning: address of stack memory associated with local variable 'result' returned [-Wreturn-stack-address]
+        return result;
+               ^~~~~~
+matchlab.c:53:9: warning: incompatible pointer types returning 'char *[1024]' from a function with result type 'char *' [-Wincompatible-pointer-types]
+        return result;
+               ^~~~~~
+matchlab.c:53:9: warning: address of stack memory associated with local variable 'result' returned [-Wreturn-stack-address]
+        return result;
+               ^~~~~~
+matchlab.c:156:10: warning: unused variable 'j' [-Wunused-variable]
+                                        int j = letterCount;
+                                            ^
+matchlab.c:275:50: warning: passing 'const char *' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+                                                char* convertedString = convertTypeAString(word);
+                                                                                           ^~~~
+matchlab.c:32:32: note: passing argument to parameter 'word' here
+char* convertTypeAString(char* word){
+                               ^
+matchlab.c:276:14: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+                                                printf(convertedString);
+                                                       ^~~~~~~~~~~~~~~
+6 warnings generated.
+gcc -std=c11 -g -Wall  matchlab.o -o matchlab
+17:15:13 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+matchlab.c:48:9: warning: address of stack memory associated with local variable 'result' returned [-Wreturn-stack-address]
+        return result;
+               ^~~~~~
+matchlab.c:53:9: warning: incompatible pointer types returning 'char *[1024]' from a function with result type 'char *' [-Wincompatible-pointer-types]
+        return result;
+               ^~~~~~
+matchlab.c:53:9: warning: address of stack memory associated with local variable 'result' returned [-Wreturn-stack-address]
+        return result;
+               ^~~~~~
+matchlab.c:274:50: warning: passing 'const char *' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+                                                char* convertedString = convertTypeAString(word);
+                                                                                           ^~~~
+matchlab.c:32:32: note: passing argument to parameter 'word' here
+char* convertTypeAString(char* word){
+                               ^
+matchlab.c:275:14: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+                                                printf(convertedString);
+                                                       ^~~~~~~~~~~~~~~
+5 warnings generated.
+gcc -std=c11 -g -Wall  matchlab.o -o matchlab
+17:15:45 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+matchlab.c:39:8: warning: initializing 'char *' with an expression of type 'const char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        char* result = word;
+              ^        ~~~~
+matchlab.c:48:9: warning: address of stack memory associated with local variable 'result' returned [-Wreturn-stack-address]
+        return result;
+               ^~~~~~
+matchlab.c:53:9: warning: incompatible pointer types returning 'char *[1024]' from a function with result type 'char *' [-Wincompatible-pointer-types]
+        return result;
+               ^~~~~~
+matchlab.c:53:9: warning: address of stack memory associated with local variable 'result' returned [-Wreturn-stack-address]
+        return result;
+               ^~~~~~
+matchlab.c:275:14: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+                                                printf(convertedString);
+                                                       ^~~~~~~~~~~~~~~
+5 warnings generated.
+gcc -std=c11 -g -Wall  matchlab.o -o matchlab
+17:16:30 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+matchlab.c:41:13: error: read-only variable is not assignable
+                result[i] = lastChar;
+                ~~~~~~~~~ ^
+matchlab.c:48:9: warning: address of stack memory associated with local variable 'result' returned [-Wreturn-stack-address]
+        return result;
+               ^~~~~~
+matchlab.c:53:9: warning: incompatible pointer types returning 'const char *[1024]' from a function with result type 'const char *' [-Wincompatible-pointer-types]
+        return result;
+               ^~~~~~
+matchlab.c:53:9: warning: address of stack memory associated with local variable 'result' returned [-Wreturn-stack-address]
+        return result;
+               ^~~~~~
+matchlab.c:274:13: warning: initializing 'char *' with an expression of type 'const char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+                                                char* convertedString = convertTypeAString(word);
+                                                      ^                 ~~~~~~~~~~~~~~~~~~~~~~~~
+matchlab.c:275:14: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+                                                printf(convertedString);
+                                                       ^~~~~~~~~~~~~~~
+5 warnings and 1 error generated.
+make: *** [matchlab.o] Error 1
+17:16:57 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+matchlab.c:41:13: error: read-only variable is not assignable
+                result[i] = lastChar;
+                ~~~~~~~~~ ^
+matchlab.c:43:9: warning: returning 'const char *' from a function with result type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        return result;
+               ^~~~~~
+matchlab.c:48:9: warning: address of stack memory associated with local variable 'result' returned [-Wreturn-stack-address]
+        return result;
+               ^~~~~~
+matchlab.c:53:9: warning: incompatible pointer types returning 'const char *[1024]' from a function with result type 'const char *' [-Wincompatible-pointer-types]
+        return result;
+               ^~~~~~
+matchlab.c:53:9: warning: address of stack memory associated with local variable 'result' returned [-Wreturn-stack-address]
+        return result;
+               ^~~~~~
+matchlab.c:275:14: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+                                                printf(convertedString);
+                                                       ^~~~~~~~~~~~~~~
+5 warnings and 1 error generated.
+make: *** [matchlab.o] Error 1
+17:17:12 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+matchlab.c:39:8: warning: initializing 'char *' with an expression of type 'const char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        char* result = word;
+              ^        ~~~~
+matchlab.c:48:9: warning: address of stack memory associated with local variable 'result' returned [-Wreturn-stack-address]
+        return result;
+               ^~~~~~
+matchlab.c:53:9: warning: incompatible pointer types returning 'const char *[1024]' from a function with result type 'const char *' [-Wincompatible-pointer-types]
+        return result;
+               ^~~~~~
+matchlab.c:53:9: warning: address of stack memory associated with local variable 'result' returned [-Wreturn-stack-address]
+        return result;
+               ^~~~~~
+matchlab.c:275:14: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+                                                printf(convertedString);
+                                                       ^~~~~~~~~~~~~~~
+5 warnings generated.
+gcc -std=c11 -g -Wall  matchlab.o -o matchlab
+17:17:22 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+17:17:58 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+17:18:46 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+17:19:26 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+17:19:28 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+17:19:31 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+17:22:47 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+17:23:34 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+17:24:01 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+matchlab.c:39:8: warning: initializing 'char *' with an expression of type 'const char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        char* result = word;
+              ^        ~~~~
+matchlab.c:48:9: warning: address of stack memory associated with local variable 'result' returned [-Wreturn-stack-address]
+        return result;
+               ^~~~~~
+matchlab.c:53:9: warning: incompatible pointer types returning 'const char *[1024]' from a function with result type 'const char *' [-Wincompatible-pointer-types]
+        return result;
+               ^~~~~~
+matchlab.c:53:9: warning: address of stack memory associated with local variable 'result' returned [-Wreturn-stack-address]
+        return result;
+               ^~~~~~
+matchlab.c:275:14: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+                                                printf(convertedString);
+                                                       ^~~~~~~~~~~~~~~
+5 warnings generated.
+gcc -std=c11 -g -Wall  matchlab.o -o matchlab
+17:24:22 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+17:25:17 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+17:43:29 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+matchlab.c:38:8: warning: initializing 'char *' with an expression of type 'const char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        char* result = word;
+              ^        ~~~~
+matchlab.c:48:15: error: read-only variable is not assignable
+                result[i*2] = word[i];
+                ~~~~~~~~~~~ ^
+matchlab.c:50:19: error: read-only variable is not assignable
+                result[i*2 + 1] = (char)mod8 + '0';
+                ~~~~~~~~~~~~~~~ ^
+matchlab.c:52:9: warning: address of stack memory associated with local variable 'result' returned [-Wreturn-stack-address]
+        return result;
+               ^~~~~~
+matchlab.c:57:9: warning: incompatible pointer types returning 'const char *[1024]' from a function with result type 'const char *' [-Wincompatible-pointer-types]
+        return result;
+               ^~~~~~
+matchlab.c:57:9: warning: address of stack memory associated with local variable 'result' returned [-Wreturn-stack-address]
+        return result;
+               ^~~~~~
+matchlab.c:279:14: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+                                                printf(convertedString);
+                                                       ^~~~~~~~~~~~~~~
+matchlab.c:284:31: warning: implicit declaration of function 'convertTypeBtring' is invalid in C99 [-Wimplicit-function-declaration]
+                                                char* convertedString = convertTypeBtring(word);
+                                                                        ^
+matchlab.c:284:13: warning: incompatible integer to pointer conversion initializing 'char *' with an expression of type 'int' [-Wint-conversion]
+                                                char* convertedString = convertTypeBtring(word);
+                                                      ^                 ~~~~~~~~~~~~~~~~~~~~~~~
+matchlab.c:285:14: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+                                                printf(convertedString);
+                                                       ^~~~~~~~~~~~~~~
+8 warnings and 2 errors generated.
+make: *** [matchlab.o] Error 1
+17:43:50 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+matchlab.c:38:8: warning: initializing 'char *' with an expression of type 'const char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        char* result = word;
+              ^        ~~~~
+matchlab.c:52:9: warning: address of stack memory associated with local variable 'result' returned [-Wreturn-stack-address]
+        return result;
+               ^~~~~~
+matchlab.c:57:9: warning: incompatible pointer types returning 'const char *[1024]' from a function with result type 'const char *' [-Wincompatible-pointer-types]
+        return result;
+               ^~~~~~
+matchlab.c:57:9: warning: address of stack memory associated with local variable 'result' returned [-Wreturn-stack-address]
+        return result;
+               ^~~~~~
+matchlab.c:279:14: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+                                                printf(convertedString);
+                                                       ^~~~~~~~~~~~~~~
+matchlab.c:284:31: warning: implicit declaration of function 'convertTypeBtring' is invalid in C99 [-Wimplicit-function-declaration]
+                                                char* convertedString = convertTypeBtring(word);
+                                                                        ^
+matchlab.c:284:13: warning: incompatible integer to pointer conversion initializing 'char *' with an expression of type 'int' [-Wint-conversion]
+                                                char* convertedString = convertTypeBtring(word);
+                                                      ^                 ~~~~~~~~~~~~~~~~~~~~~~~
+matchlab.c:285:14: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+                                                printf(convertedString);
+                                                       ^~~~~~~~~~~~~~~
+8 warnings generated.
+gcc -std=c11 -g -Wall  matchlab.o -o matchlab
+Undefined symbols for architecture x86_64:
+  "_convertTypeBtring", referenced from:
+      _main in matchlab.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [matchlab] Error 1
+17:44:00 **** Clean-only build of configuration Debug for project MatchLab ****
+make clean 
+rm *.o matchlab
+rm: matchlab: No such file or directory
+make: *** [clean] Error 1
+17:44:05 **** Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+matchlab.c:38:8: warning: initializing 'char *' with an expression of type 'const char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        char* result = word;
+              ^        ~~~~
+matchlab.c:52:9: warning: address of stack memory associated with local variable 'result' returned [-Wreturn-stack-address]
+        return result;
+               ^~~~~~
+matchlab.c:57:9: warning: incompatible pointer types returning 'const char *[1024]' from a function with result type 'const char *' [-Wincompatible-pointer-types]
+        return result;
+               ^~~~~~
+matchlab.c:57:9: warning: address of stack memory associated with local variable 'result' returned [-Wreturn-stack-address]
+        return result;
+               ^~~~~~
+matchlab.c:279:14: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+                                                printf(convertedString);
+                                                       ^~~~~~~~~~~~~~~
+matchlab.c:284:31: warning: implicit declaration of function 'convertTypeBtring' is invalid in C99 [-Wimplicit-function-declaration]
+                                                char* convertedString = convertTypeBtring(word);
+                                                                        ^
+matchlab.c:284:13: warning: incompatible integer to pointer conversion initializing 'char *' with an expression of type 'int' [-Wint-conversion]
+                                                char* convertedString = convertTypeBtring(word);
+                                                      ^                 ~~~~~~~~~~~~~~~~~~~~~~~
+matchlab.c:285:14: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+                                                printf(convertedString);
+                                                       ^~~~~~~~~~~~~~~
+gcc -std=c11 -g -Wall  matchlab.o -o matchlab
+8 warnings generated.
+Undefined symbols for architecture x86_64:
+  "_convertTypeBtring", referenced from:
+      _main in matchlab.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [matchlab] Error 1
+17:44:22 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+matchlab.c:38:8: warning: initializing 'char *' with an expression of type 'const char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        char* result = word;
+              ^        ~~~~
+matchlab.c:52:9: warning: address of stack memory associated with local variable 'result' returned [-Wreturn-stack-address]
+        return result;
+               ^~~~~~
+matchlab.c:57:9: warning: incompatible pointer types returning 'const char *[1024]' from a function with result type 'const char *' [-Wincompatible-pointer-types]
+        return result;
+               ^~~~~~
+matchlab.c:57:9: warning: address of stack memory associated with local variable 'result' returned [-Wreturn-stack-address]
+        return result;
+               ^~~~~~
+matchlab.c:279:14: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+                                                printf(convertedString);
+                                                       ^~~~~~~~~~~~~~~
+matchlab.c:285:14: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+                                                printf(convertedString);
+                                                       ^~~~~~~~~~~~~~~
+6 warnings generated.
+gcc -std=c11 -g -Wall  matchlab.o -o matchlab
+17:45:00 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+17:45:54 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+17:46:00 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+17:46:21 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+17:47:54 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+17:55:48 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+matchlab.c:38:8: warning: initializing 'char *' with an expression of type 'const char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        char* result = word;
+              ^        ~~~~
+matchlab.c:52:9: warning: address of stack memory associated with local variable 'result' returned [-Wreturn-stack-address]
+        return result;
+               ^~~~~~
+matchlab.c:60:21: warning: incompatible integer to pointer conversion assigning to 'char *' from 'const char' [-Wint-conversion]
+                        result[resCount] = word[i];
+                                         ^ ~~~~~~~
+matchlab.c:64:9: warning: incompatible pointer types returning 'char *[1024]' from a function with result type 'const char *' [-Wincompatible-pointer-types]
+        return result;
+               ^~~~~~
+matchlab.c:64:9: warning: address of stack memory associated with local variable 'result' returned [-Wreturn-stack-address]
+        return result;
+               ^~~~~~
+matchlab.c:286:14: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+                                                printf(convertedString);
+                                                       ^~~~~~~~~~~~~~~
+matchlab.c:293:14: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+                                                printf(convertedString);
+                                                       ^~~~~~~~~~~~~~~
+7 warnings generated.
+gcc -std=c11 -g -Wall  matchlab.o -o matchlab
+17:57:00 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+matchlab.c:38:8: warning: initializing 'char *' with an expression of type 'const char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        char* result = word;
+              ^        ~~~~
+matchlab.c:52:9: warning: address of stack memory associated with local variable 'result' returned [-Wreturn-stack-address]
+        return result;
+               ^~~~~~
+matchlab.c:60:21: warning: incompatible integer to pointer conversion assigning to 'char *' from 'const char' [-Wint-conversion]
+                        result[resCount] = word[i];
+                                         ^ ~~~~~~~
+matchlab.c:64:9: warning: incompatible pointer types returning 'char *[1024]' from a function with result type 'const char *' [-Wincompatible-pointer-types]
+        return result;
+               ^~~~~~
+matchlab.c:64:9: warning: address of stack memory associated with local variable 'result' returned [-Wreturn-stack-address]
+        return result;
+               ^~~~~~
+matchlab.c:286:14: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+                                                printf(convertedString);
+                                                       ^~~~~~~~~~~~~~~
+matchlab.c:294:14: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+                                                printf(convertedString);
+                                                       ^~~~~~~~~~~~~~~
+matchlab.c:301:13: warning: initializing 'char *' with an expression of type 'const char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+                                                char* convertedString = convertTypeCString(word);
+                                                      ^                 ~~~~~~~~~~~~~~~~~~~~~~~~
+matchlab.c:302:14: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+                                                printf(convertedString);
+                                                       ^~~~~~~~~~~~~~~
+9 warnings generated.
+gcc -std=c11 -g -Wall  matchlab.o -o matchlab
+17:57:21 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+17:58:26 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+17:59:24 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+matchlab.c:38:8: warning: initializing 'char *' with an expression of type 'const char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        char* result = word;
+              ^        ~~~~
+matchlab.c:52:9: warning: address of stack memory associated with local variable 'result' returned [-Wreturn-stack-address]
+        return result;
+               ^~~~~~
+matchlab.c:64:9: warning: address of stack memory associated with local variable 'result' returned [-Wreturn-stack-address]
+        return result;
+               ^~~~~~
+matchlab.c:286:14: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+                                                printf(convertedString);
+                                                       ^~~~~~~~~~~~~~~
+matchlab.c:294:14: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+                                                printf(convertedString);
+                                                       ^~~~~~~~~~~~~~~
+matchlab.c:301:13: warning: initializing 'char *' with an expression of type 'const char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+                                                char* convertedString = convertTypeCString(word);
+                                                      ^                 ~~~~~~~~~~~~~~~~~~~~~~~~
+matchlab.c:302:14: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+                                                printf(convertedString);
+                                                       ^~~~~~~~~~~~~~~
+7 warnings generated.
+gcc -std=c11 -g -Wall  matchlab.o -o matchlab
+17:59:28 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+17:59:37 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+18:00:15 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+18:00:34 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+18:01:06 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+18:02:39 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+18:05:40 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+gcc -std=c11 -g -Wall  -c matchlab.c
+matchlab.c:38:8: warning: initializing 'char *' with an expression of type 'const char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        char* result = word;
+              ^        ~~~~
+matchlab.c:52:9: warning: address of stack memory associated with local variable 'result' returned [-Wreturn-stack-address]
+        return result;
+               ^~~~~~
+matchlab.c:64:9: warning: address of stack memory associated with local variable 'result' returned [-Wreturn-stack-address]
+        return result;
+               ^~~~~~
+matchlab.c:286:14: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+                                                printf(convertedString);
+                                                       ^~~~~~~~~~~~~~~
+matchlab.c:294:14: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+                                                printf(convertedString);
+                                                       ^~~~~~~~~~~~~~~
+matchlab.c:301:13: warning: initializing 'char *' with an expression of type 'const char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+                                                char* convertedString = convertTypeCString(word);
+                                                      ^                 ~~~~~~~~~~~~~~~~~~~~~~~~
+matchlab.c:302:14: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+                                                printf(convertedString);
+                                                       ^~~~~~~~~~~~~~~
+7 warnings generated.
+gcc -std=c11 -g -Wall  matchlab.o -o matchlab
+18:05:50 **** Incremental Build of configuration Debug for project MatchLab ****
+make all 
+make: Nothing to be done for `all'.
+19:16:00 **** Clean-only build of configuration Debug for project MatchLab ****
+make clean 
+rm *.o matchlab

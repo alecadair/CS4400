@@ -1,0 +1,637 @@
+16:16:54 **** Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+mm.c: In function ‘mm_init’:
+mm.c:117:5: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+     printf("%d\n",sizeof(block_header));
+     ^
+mm.c: At top level:
+mm.c:97:14: warning: ‘find_best_fit’ defined but not used [-Wunused-function]
+ static void* find_best_fit(size_t size){
+              ^
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm
+16:46:56 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+mm.c: In function ‘mm_init’:
+mm.c:117:5: warning: unknown conversion type character 0xa in format [-Wformat=]
+     printf("%l\n",sizeof(block_header));
+     ^
+mm.c:117:5: warning: too many arguments for format [-Wformat-extra-args]
+mm.c: At top level:
+mm.c:97:14: warning: ‘find_best_fit’ defined but not used [-Wunused-function]
+ static void* find_best_fit(size_t size){
+              ^
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm
+16:53:07 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+mm.c: In function ‘mm_init’:
+mm.c:119:5: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+     printf("%d\n",sizeof(block_header));
+     ^
+mm.c: At top level:
+mm.c:97:14: warning: ‘find_best_fit’ defined but not used [-Wunused-function]
+ static void* find_best_fit(size_t size){
+              ^
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm
+16:56:17 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+make: Nothing to be done for `all'.
+16:57:03 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+make: Nothing to be done for `all'.
+16:58:32 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+make: Nothing to be done for `all'.
+17:07:14 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+mm.c: In function ‘mm_init’:
+mm.c:119:5: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+     printf("%d\n",sizeof(block_header));
+     ^
+mm.c: At top level:
+mm.c:97:14: warning: ‘find_best_fit’ defined but not used [-Wunused-function]
+ static void* find_best_fit(size_t size){
+              ^
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm
+17:07:42 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+make: Nothing to be done for `all'.
+17:16:36 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+mm.c: In function ‘mm_init’:
+mm.c:119:5: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+     printf("%d\n",sizeof(block_header));
+     ^
+mm.c: At top level:
+mm.c:97:14: warning: ‘find_best_fit’ defined but not used [-Wunused-function]
+ static void* find_best_fit(size_t size){
+              ^
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm
+17:16:43 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+make: Nothing to be done for `all'.
+17:16:57 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+make: Nothing to be done for `all'.
+17:24:30 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+make: Nothing to be done for `all'.
+18:15:02 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+mm.c: In function ‘mm_init’:
+mm.c:131:5: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+     printf("%d\n",sizeof(block_header));
+     ^
+mm.c: At top level:
+mm.c:107:14: warning: ‘find_best_fit’ defined but not used [-Wunused-function]
+ static void* find_best_fit(size_t size){
+              ^
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm
+18:27:05 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+mm.c: In function ‘mm_init’:
+mm.c:149:5: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+     printf("%d\n",sizeof(block_header));
+     ^
+mm.c: At top level:
+mm.c:125:14: warning: ‘find_best_fit’ defined but not used [-Wunused-function]
+ static void* find_best_fit(size_t size){
+              ^
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm
+18:27:46 **** Clean-only build of configuration Debug for project malloclab-handout ****
+make clean 
+rm -f *~ *.o mdriver
+18:27:49 **** Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mdriver.o mdriver.c
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+mm.c: In function ‘mm_init’:
+mm.c:149:5: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+     printf("%d\n",sizeof(block_header));
+     ^
+mm.c: At top level:
+mm.c:125:14: warning: ‘find_best_fit’ defined but not used [-Wunused-function]
+ static void* find_best_fit(size_t size){
+              ^
+gcc -O2 -g -Wall   -c -o memlib.o memlib.c
+gcc -O2 -g -Wall   -c -o pagemap.o pagemap.c
+gcc -O2 -g -Wall   -c -o fsecs.o fsecs.c
+gcc -O2 -g -Wall   -c -o fcyc.o fcyc.c
+gcc -O2 -g -Wall   -c -o clock.o clock.c
+gcc -O2 -g -Wall   -c -o ftimer.o ftimer.c
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm
+18:27:56 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+make: Nothing to be done for `all'.
+18:31:32 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+mm.c: In function ‘mm_init’:
+mm.c:149:5: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+     printf("%d\n",sizeof(block_header));
+     ^
+mm.c: At top level:
+mm.c:125:14: warning: ‘find_best_fit’ defined but not used [-Wunused-function]
+ static void* find_best_fit(size_t size){
+              ^
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm
+18:31:38 **** Clean-only build of configuration Debug for project malloclab-handout ****
+make clean 
+rm -f *~ *.o mdriver
+18:31:41 **** Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mdriver.o mdriver.c
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+mm.c: In function ‘mm_init’:
+mm.c:149:5: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+     printf("%d\n",sizeof(block_header));
+     ^
+mm.c: At top level:
+mm.c:125:14: warning: ‘find_best_fit’ defined but not used [-Wunused-function]
+ static void* find_best_fit(size_t size){
+              ^
+gcc -O2 -g -Wall   -c -o memlib.o memlib.c
+gcc -O2 -g -Wall   -c -o pagemap.o pagemap.c
+gcc -O2 -g -Wall   -c -o fsecs.o fsecs.c
+gcc -O2 -g -Wall   -c -o fcyc.o fcyc.c
+gcc -O2 -g -Wall   -c -o clock.o clock.c
+gcc -O2 -g -Wall   -c -o ftimer.o ftimer.c
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm
+18:31:46 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+make: Nothing to be done for `all'.
+18:31:50 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+make: Nothing to be done for `all'.
+18:32:55 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+mm.c: In function ‘mm_init’:
+mm.c:149:5: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+     printf("%d\n",sizeof(block_header));
+     ^
+mm.c: At top level:
+mm.c:125:14: warning: ‘find_best_fit’ defined but not used [-Wunused-function]
+ static void* find_best_fit(size_t size){
+              ^
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm
+18:33:03 **** Clean-only build of configuration Debug for project malloclab-handout ****
+make clean 
+rm -f *~ *.o mdriver
+18:33:07 **** Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mdriver.o mdriver.c
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+mm.c: In function ‘mm_init’:
+mm.c:149:5: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+     printf("%d\n",sizeof(block_header));
+     ^
+mm.c: At top level:
+mm.c:125:14: warning: ‘find_best_fit’ defined but not used [-Wunused-function]
+ static void* find_best_fit(size_t size){
+              ^
+gcc -O2 -g -Wall   -c -o memlib.o memlib.c
+gcc -O2 -g -Wall   -c -o pagemap.o pagemap.c
+gcc -O2 -g -Wall   -c -o fsecs.o fsecs.c
+gcc -O2 -g -Wall   -c -o fcyc.o fcyc.c
+gcc -O2 -g -Wall   -c -o clock.o clock.c
+gcc -O2 -g -Wall   -c -o ftimer.o ftimer.c
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm
+18:33:12 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+make: Nothing to be done for `all'.
+18:33:19 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+make: Nothing to be done for `all'.
+18:40:12 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+mm.c: In function ‘mm_init’:
+mm.c:151:5: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+     printf("%d\n",sizeof(block_header));
+     ^
+mm.c: At top level:
+mm.c:127:14: warning: ‘find_best_fit’ defined but not used [-Wunused-function]
+ static void* find_best_fit(size_t size){
+              ^
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm
+18:40:16 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+make: Nothing to be done for `all'.
+18:40:22 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+make: Nothing to be done for `all'.
+18:41:34 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+mm.c: In function ‘set_allocated’:
+mm.c:242:0: error: unterminated argument list invoking macro "ALIGN"
+ }
+ ^
+mm.c:95:26: error: ‘ALIGN’ undeclared (first use in this function)
+   void* new_node = _bp - ALIGN(size + (1+OVERHEAD);
+                          ^
+mm.c:95:26: note: each undeclared identifier is reported only once for each function it appears in
+mm.c:95:3: error: expected ‘,’ or ‘;’ at end of input
+   void* new_node = _bp - ALIGN(size + (1+OVERHEAD);
+   ^
+mm.c:95:3: error: expected declaration or statement at end of input
+mm.c:95:9: warning: unused variable ‘new_node’ [-Wunused-variable]
+   void* new_node = _bp - ALIGN(size + (1+OVERHEAD);
+         ^
+mm.c:95:3: error: expected declaration or statement at end of input
+   void* new_node = _bp - ALIGN(size + (1+OVERHEAD);
+   ^
+make: *** [mm.o] Error 1
+18:41:48 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+mm.c: In function ‘mm_init’:
+mm.c:151:5: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+     printf("%d\n",sizeof(block_header));
+     ^
+mm.c: At top level:
+mm.c:127:14: warning: ‘find_best_fit’ defined but not used [-Wunused-function]
+ static void* find_best_fit(size_t size){
+              ^
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm
+18:43:11 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+mm.c: In function ‘mm_init’:
+mm.c:151:5: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+     printf("%d\n",sizeof(block_header));
+     ^
+mm.c: At top level:
+mm.c:127:14: warning: ‘find_best_fit’ defined but not used [-Wunused-function]
+ static void* find_best_fit(size_t size){
+              ^
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm
+18:43:16 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+make: Nothing to be done for `all'.
+18:43:20 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+make: Nothing to be done for `all'.
+18:44:03 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+mm.c: In function ‘mm_init’:
+mm.c:151:5: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+     printf("%d\n",sizeof(block_header));
+     ^
+mm.c: At top level:
+mm.c:127:14: warning: ‘find_best_fit’ defined but not used [-Wunused-function]
+ static void* find_best_fit(size_t size){
+              ^
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm
+18:44:06 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+make: Nothing to be done for `all'.
+18:46:58 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+mm.c: In function ‘mm_init’:
+mm.c:151:5: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+     printf("%d\n",sizeof(block_header));
+     ^
+mm.c: At top level:
+mm.c:127:14: warning: ‘find_best_fit’ defined but not used [-Wunused-function]
+ static void* find_best_fit(size_t size){
+              ^
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm
+18:46:59 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+make: Nothing to be done for `all'.
+18:47:00 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+make: Nothing to be done for `all'.
+18:47:01 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+make: Nothing to be done for `all'.
+18:47:02 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+make: Nothing to be done for `all'.
+18:49:58 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+mm.c: In function ‘mm_init’:
+mm.c:151:5: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+     printf("%d\n",sizeof(block_header));
+     ^
+mm.c: At top level:
+mm.c:127:14: warning: ‘find_best_fit’ defined but not used [-Wunused-function]
+ static void* find_best_fit(size_t size){
+              ^
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm
+18:50:04 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+make: Nothing to be done for `all'.
+18:59:28 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+mm.c: In function ‘mm_init’:
+mm.c:152:5: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+     printf("%d\n",sizeof(block_header));
+     ^
+mm.c: At top level:
+mm.c:128:14: warning: ‘find_best_fit’ defined but not used [-Wunused-function]
+ static void* find_best_fit(size_t size){
+              ^
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm
+18:59:34 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:14:01 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+mm.c: In function ‘mm_init’:
+mm.c:163:5: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+     printf("%d\n",sizeof(block_header));
+     ^
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm
+19:16:00 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:16:03 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:16:06 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:16:35 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+mm.c: In function ‘mm_init’:
+mm.c:163:5: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+     printf("%d\n",sizeof(block_header));
+     ^
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm
+19:16:37 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:16:41 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:17:37 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm
+19:17:40 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:19:30 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm
+19:22:38 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm
+19:25:29 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm
+19:25:32 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:25:35 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:26:04 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm
+19:35:33 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm
+19:35:42 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm
+19:36:48 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm
+19:50:05 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+mm.c:136:14: warning: ‘find_best_fit’ defined but not used [-Wunused-function]
+ static void* find_best_fit(size_t size){
+              ^
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm
+19:50:37 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+mm.c:127:14: warning: ‘find_first_fit’ defined but not used [-Wunused-function]
+ static void* find_first_fit(size_t size){
+              ^
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm
+19:51:06 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:55:49 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+mm.c:127:14: warning: ‘find_first_fit’ defined but not used [-Wunused-function]
+ static void* find_first_fit(size_t size){
+              ^
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm
+19:56:05 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:56:07 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:56:11 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:56:15 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+make: Nothing to be done for `all'.
+21:48:00 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+mm.c: In function ‘mm_malloc’:
+mm.c:206:6: warning: implicit declaration of function ‘ALIGNIchunk’ [-Wimplicit-function-declaration]
+      _bp->size = ALIGNIchunk(size - OVERHEAD);
+      ^
+mm.c: At top level:
+mm.c:127:14: warning: ‘find_first_fit’ defined but not used [-Wunused-function]
+ static void* find_first_fit(size_t size){
+              ^
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm
+mm.o: In function `mm_malloc':
+/home/adair/CS4400/assign6/malloclab-handout/mm.c:206: undefined reference to `ALIGNIchunk'
+collect2: error: ld returned 1 exit status
+make: *** [mdriver] Error 1
+21:48:34 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+mm.c: In function ‘mm_malloc’:
+mm.c:206:46: error: expected ‘;’ before ‘)’ token
+      _bp->size = ALIGN(chunk_size - OVERHEAD));
+                                              ^
+mm.c:206:46: error: expected statement before ‘)’ token
+mm.c: At top level:
+mm.c:127:14: warning: ‘find_first_fit’ defined but not used [-Wunused-function]
+ static void* find_first_fit(size_t size){
+              ^
+make: *** [mm.o] Error 1
+21:48:47 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+mm.c:127:14: warning: ‘find_first_fit’ defined but not used [-Wunused-function]
+ static void* find_first_fit(size_t size){
+              ^
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm
+21:51:04 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+mm.c:127:14: warning: ‘find_first_fit’ defined but not used [-Wunused-function]
+ static void* find_first_fit(size_t size){
+              ^
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm
+21:52:13 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+mm.c:127:14: warning: ‘find_first_fit’ defined but not used [-Wunused-function]
+ static void* find_first_fit(size_t size){
+              ^
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm
+21:52:16 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+make: Nothing to be done for `all'.
+21:52:39 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+mm.c:127:14: warning: ‘find_first_fit’ defined but not used [-Wunused-function]
+ static void* find_first_fit(size_t size){
+              ^
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm
+21:52:54 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+mm.c:127:14: warning: ‘find_first_fit’ defined but not used [-Wunused-function]
+ static void* find_first_fit(size_t size){
+              ^
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm
+21:54:00 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+mm.c:127:14: warning: ‘find_first_fit’ defined but not used [-Wunused-function]
+ static void* find_first_fit(size_t size){
+              ^
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm
+21:54:30 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+mm.c: In function ‘mm_malloc’:
+mm.c:24:47: error: invalid operands to binary & (have ‘void *’ and ‘int’)
+ #define ALIGN(size) (((size) + (ALIGNMENT-1)) & ~(ALIGNMENT-1))
+                                               ^
+mm.c:211:13: note: in expansion of macro ‘ALIGN’
+      return ALIGN(bp+OVERHEAD+1);
+             ^
+mm.c: At top level:
+mm.c:127:14: warning: ‘find_first_fit’ defined but not used [-Wunused-function]
+ static void* find_first_fit(size_t size){
+              ^
+make: *** [mm.o] Error 1
+21:54:54 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+mm.c: In function ‘mm_malloc’:
+mm.c:24:47: error: invalid operands to binary & (have ‘struct block_header *’ and ‘int’)
+ #define ALIGN(size) (((size) + (ALIGNMENT-1)) & ~(ALIGNMENT-1))
+                                               ^
+mm.c:211:13: note: in expansion of macro ‘ALIGN’
+      return ALIGN(_bp+OVERHEAD+1);
+             ^
+mm.c: At top level:
+mm.c:127:14: warning: ‘find_first_fit’ defined but not used [-Wunused-function]
+ static void* find_first_fit(size_t size){
+              ^
+make: *** [mm.o] Error 1
+21:55:15 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+mm.c: In function ‘mm_malloc’:
+mm.c:211:6: warning: return makes pointer from integer without a cast [enabled by default]
+      return ALIGN((unsigned long)_bp+OVERHEAD+1);
+      ^
+mm.c: At top level:
+mm.c:127:14: warning: ‘find_first_fit’ defined but not used [-Wunused-function]
+ static void* find_first_fit(size_t size){
+              ^
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm
+21:55:48 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+mm.c:127:14: warning: ‘find_first_fit’ defined but not used [-Wunused-function]
+ static void* find_first_fit(size_t size){
+              ^
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm
+21:56:19 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+mm.c:127:14: warning: ‘find_first_fit’ defined but not used [-Wunused-function]
+ static void* find_first_fit(size_t size){
+              ^
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm
+21:57:56 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+mm.c:127:14: warning: ‘find_first_fit’ defined but not used [-Wunused-function]
+ static void* find_first_fit(size_t size){
+              ^
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm
+21:58:31 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+mm.c:127:14: warning: ‘find_first_fit’ defined but not used [-Wunused-function]
+ static void* find_first_fit(size_t size){
+              ^
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm
+21:59:27 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+mm.c:127:14: warning: ‘find_first_fit’ defined but not used [-Wunused-function]
+ static void* find_first_fit(size_t size){
+              ^
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm
+22:03:17 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+mm.c:127:14: warning: ‘find_first_fit’ defined but not used [-Wunused-function]
+ static void* find_first_fit(size_t size){
+              ^
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm
+22:37:00 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+mm.c:127:14: warning: ‘find_first_fit’ defined but not used [-Wunused-function]
+ static void* find_first_fit(size_t size){
+              ^
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm
+22:37:45 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+mm.c:127:14: warning: ‘find_first_fit’ defined but not used [-Wunused-function]
+ static void* find_first_fit(size_t size){
+              ^
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm
+22:39:30 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+mm.c:127:14: warning: ‘find_first_fit’ defined but not used [-Wunused-function]
+ static void* find_first_fit(size_t size){
+              ^
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm

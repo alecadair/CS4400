@@ -1,0 +1,807 @@
+16:12:20 **** Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+16:12:23 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+16:12:34 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+16:12:51 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+16:13:08 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+18:46:51 **** Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+18:46:55 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+18:53:55 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+18:55:13 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+18:55:21 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:00:33 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+19:00:37 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:00:48 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+19:00:51 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:01:38 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:03:25 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:07:54 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:08:00 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:09:02 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:14:26 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:16:30 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:19:07 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:21:37 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+19:23:14 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+19:23:21 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:26:05 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+19:26:12 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:26:58 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:27:17 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:29:16 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+20:44:31 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+20:44:33 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+20:53:04 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+tinychat.c: In function ‘doit’:
+tinychat.c:110:11: warning: implicit declaration of function ‘mem_set’ [-Wimplicit-function-declaration]
+           mem_set(chat,0,sizeof(chat));
+           ^
+/tmp/cc0SWhoF.o: In function `doit':
+/home/adair/CS4400/assign7/servlab-handout/tinychat.c:110: undefined reference to `mem_set'
+collect2: error: ld returned 1 exit status
+make: *** [tinychat] Error 1
+20:53:18 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+tinychat.c: In function ‘doit’:
+tinychat.c:110:31: warning: argument to ‘sizeof’ in ‘memset’ call is the same expression as the destination; did you mean to provide an explicit length? [-Wsizeof-pointer-memaccess]
+           memset(chat,0,sizeof(chat));
+                               ^
+20:53:37 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+tinychat.c: In function ‘doit’:
+tinychat.c:110:31: warning: argument to ‘sizeof’ in ‘memset’ call is the same pointer type ‘char *’ as the destination; expected ‘char’ or an explicit length [-Wsizeof-pointer-memaccess]
+           memset(chat,0,sizeof(char*));
+                               ^
+20:54:10 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+21:08:16 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+tinychat.c: In function ‘doit’:
+tinychat.c:115:8: error: too few arguments to function ‘serve_chat_form’
+        serve_chat_form(fd,"Welcome to TinyChat");
+        ^
+tinychat.c:26:6: note: declared here
+ void serve_chat_form(int fd, const char* pre_content,char*user, char*topic, char* convo);
+      ^
+make: *** [tinychat] Error 1
+21:21:23 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+tinychat.c: In function ‘doit’:
+tinychat.c:119:37: error: ‘dictionary’ undeclared (first use in this function)
+        char* convo = dictionary_get(dictionary,topic);
+                                     ^
+tinychat.c:119:37: note: each undeclared identifier is reported only once for each function it appears in
+tinychat.c:121:49: error: ‘user’ undeclared (first use in this function)
+        serve_chat_form(fd,"Welcome to TinyChat",user,topic,);
+                                                 ^
+tinychat.c:121:60: error: expected expression before ‘)’ token
+        serve_chat_form(fd,"Welcome to TinyChat",user,topic,);
+                                                            ^
+tinychat.c:119:14: warning: unused variable ‘convo’ [-Wunused-variable]
+        char* convo = dictionary_get(dictionary,topic);
+              ^
+tinychat.c:116:15: warning: unused variable ‘msg_size’ [-Wunused-variable]
+        size_t msg_size = strlen(client_message);
+               ^
+make: *** [tinychat] Error 1
+21:21:31 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+tinychat.c: In function ‘doit’:
+tinychat.c:121:49: error: ‘user’ undeclared (first use in this function)
+        serve_chat_form(fd,"Welcome to TinyChat",user,topic,);
+                                                 ^
+tinychat.c:121:49: note: each undeclared identifier is reported only once for each function it appears in
+tinychat.c:121:60: error: expected expression before ‘)’ token
+        serve_chat_form(fd,"Welcome to TinyChat",user,topic,);
+                                                            ^
+tinychat.c:119:14: warning: unused variable ‘convo’ [-Wunused-variable]
+        char* convo = dictionary_get(conversations,topic);
+              ^
+tinychat.c:116:15: warning: unused variable ‘msg_size’ [-Wunused-variable]
+        size_t msg_size = strlen(client_message);
+               ^
+make: *** [tinychat] Error 1
+21:46:33 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+21:47:50 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+21:47:58 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+21:52:47 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+21:55:19 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+21:55:31 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+21:56:46 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+22:24:27 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+22:24:33 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+22:25:30 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+22:27:05 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+22:39:33 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+22:39:36 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+22:39:39 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+22:40:03 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+22:40:15 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+22:50:31 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+22:50:34 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+22:50:47 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+22:51:03 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+22:51:27 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+22:54:33 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+22:54:38 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+22:54:44 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+22:58:13 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+22:58:17 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+23:00:29 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+23:00:56 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+23:02:07 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+23:02:16 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+23:03:10 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+23:03:29 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+23:03:32 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+23:03:41 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+23:05:52 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+23:06:13 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+23:08:30 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+23:11:08 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+23:12:47 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+23:13:40 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+23:15:31 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+23:16:57 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+23:21:41 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+23:21:45 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+23:23:07 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+23:23:12 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+23:24:33 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+23:27:04 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+23:27:45 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+23:27:51 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+23:28:14 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+23:32:28 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+23:32:32 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+23:32:53 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+00:21:19 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+00:27:45 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+tinychat.c: In function ‘doit’:
+tinychat.c:119:8: warning: implicit declaration of function ‘same_key’ [-Wimplicit-function-declaration]
+        if(same_key(client_message,"")){
+        ^
+/tmp/cc0TRzkH.o: In function `doit':
+/home/adair/CS4400/assign7/servlab-handout/tinychat.c:119: undefined reference to `same_key'
+collect2: error: ld returned 1 exit status
+make: *** [tinychat] Error 1
+00:28:28 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+tinychat.c: In function ‘doit’:
+tinychat.c:119:8: warning: implicit declaration of function ‘same_key’ [-Wimplicit-function-declaration]
+        if(same_key(client_message,"",COMPARE_CASE_INSENS)){
+        ^
+/tmp/cc8yd723.o: In function `doit':
+/home/adair/CS4400/assign7/servlab-handout/tinychat.c:119: undefined reference to `same_key'
+collect2: error: ld returned 1 exit status
+make: *** [tinychat] Error 1
+00:29:28 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+00:29:42 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+00:29:49 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+00:30:07 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+00:31:08 **** Clean-only build of configuration Debug for project servlab-handout ****
+make clean 
+rm tinychat
+00:32:10 **** Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+00:32:13 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+00:32:14 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+00:32:22 **** Clean-only build of configuration Debug for project servlab-handout ****
+make clean 
+rm tinychat
+00:32:27 **** Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+00:36:13 **** Clean-only build of configuration Debug for project servlab-handout ****
+make clean 
+rm tinychat
+00:36:18 **** Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+00:36:32 **** Clean-only build of configuration Debug for project servlab-handout ****
+make clean 
+rm tinychat
+00:49:35 **** Clean-only build of configuration Debug for project servlab-handout ****
+make clean 
+rm tinychat
+00:49:40 **** Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+00:49:50 **** Clean-only build of configuration Debug for project servlab-handout ****
+make clean 
+rm tinychat
+00:50:18 **** Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+16:41:21 **** Clean-only build of configuration Debug for project servlab-handout ****
+make clean 
+rm tinychat
+16:41:38 **** Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+16:50:09 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+tinychat.c: In function ‘doit’:
+tinychat.c:134:15: warning: unused variable ‘curl_message’ [-Wunused-variable]
+         char* curl_message;
+               ^
+tinychat.c: At top level:
+tinychat.c:26:13: warning: ‘post_chat’ declared ‘static’ but never defined [-Wunused-function]
+ static void post_chat(int fd, const char*pre_content,char* user, char* topic, char* message);
+             ^
+16:50:36 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+16:51:49 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+16:52:44 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+16:54:40 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+17:00:30 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+tinychat.c: In function ‘doit’:
+tinychat.c:134:15: warning: unused variable ‘curl_message’ [-Wunused-variable]
+         char* curl_message;
+               ^
+tinychat.c: At top level:
+tinychat.c:26:13: warning: ‘post_chat’ declared ‘static’ but never defined [-Wunused-function]
+ static void post_chat(int fd, const char*pre_content,char* user, char* topic, char* message);
+             ^
+17:00:47 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+17:07:56 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+tinychat.c: In function ‘doit’:
+tinychat.c:134:15: warning: unused variable ‘curl_message’ [-Wunused-variable]
+         char* curl_message;
+               ^
+tinychat.c: At top level:
+tinychat.c:26:13: warning: ‘post_chat’ declared ‘static’ but never defined [-Wunused-function]
+ static void post_chat(int fd, const char*pre_content,char* user, char* topic, char* message);
+             ^
+17:07:58 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+17:08:00 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+17:08:21 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+17:10:32 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+17:12:19 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+tinychat.c: In function ‘doit’:
+tinychat.c:134:15: warning: unused variable ‘curl_message’ [-Wunused-variable]
+         char* curl_message;
+               ^
+tinychat.c: At top level:
+tinychat.c:26:13: warning: ‘post_chat’ declared ‘static’ but never defined [-Wunused-function]
+ static void post_chat(int fd, const char*pre_content,char* user, char* topic, char* message);
+             ^
+17:12:22 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+17:14:06 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+17:21:11 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+tinychat.c: In function ‘doit’:
+tinychat.c:134:15: warning: unused variable ‘curl_message’ [-Wunused-variable]
+         char* curl_message;
+               ^
+tinychat.c: At top level:
+tinychat.c:26:13: warning: ‘post_chat’ declared ‘static’ but never defined [-Wunused-function]
+ static void post_chat(int fd, const char*pre_content,char* user, char* topic, char* message);
+             ^
+17:21:13 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+17:21:13 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+17:21:14 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+17:21:15 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+17:21:15 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+17:30:41 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+tinychat.c: In function ‘doit’:
+tinychat.c:134:15: warning: unused variable ‘curl_message’ [-Wunused-variable]
+         char* curl_message;
+               ^
+tinychat.c: At top level:
+tinychat.c:26:13: warning: ‘post_chat’ declared ‘static’ but never defined [-Wunused-function]
+ static void post_chat(int fd, const char*pre_content,char* user, char* topic, char* message);
+             ^
+17:31:58 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+tinychat.c: In function ‘doit’:
+tinychat.c:134:15: warning: unused variable ‘curl_message’ [-Wunused-variable]
+         char* curl_message;
+               ^
+tinychat.c: At top level:
+tinychat.c:26:13: warning: ‘post_chat’ declared ‘static’ but never defined [-Wunused-function]
+ static void post_chat(int fd, const char*pre_content,char* user, char* topic, char* message);
+             ^
+17:32:00 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+17:38:12 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+tinychat.c: In function ‘doit’:
+tinychat.c:134:6: error: expected expression before ‘char’
+      char* topic = dictionary_get(query,"topic");
+      ^
+tinychat.c:140:61: error: ‘topic’ undeclared (first use in this function)
+           char* curl_message = dictionary_get(conversations,topic);
+                                                             ^
+tinychat.c:140:61: note: each undeclared identifier is reported only once for each function it appears in
+tinychat.c:135:15: warning: unused variable ‘curl_message’ [-Wunused-variable]
+         char* curl_message;
+               ^
+tinychat.c: At top level:
+tinychat.c:173:1: error: expected identifier or ‘(’ before ‘}’ token
+ }
+ ^
+tinychat.c:26:13: warning: ‘post_chat’ declared ‘static’ but never defined [-Wunused-function]
+ static void post_chat(int fd, const char*pre_content,char* user, char* topic, char* message);
+             ^
+make: *** [tinychat] Error 1
+17:38:22 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+tinychat.c: In function ‘doit’:
+tinychat.c:135:15: warning: unused variable ‘curl_message’ [-Wunused-variable]
+         char* curl_message;
+               ^
+tinychat.c: At top level:
+tinychat.c:26:13: warning: ‘post_chat’ declared ‘static’ but never defined [-Wunused-function]
+ static void post_chat(int fd, const char*pre_content,char* user, char* topic, char* message);
+             ^
+17:38:34 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+17:39:00 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+17:40:12 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+17:41:16 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+tinychat.c: In function ‘doit’:
+tinychat.c:135:15: warning: unused variable ‘curl_message’ [-Wunused-variable]
+         char* curl_message;
+               ^
+tinychat.c: At top level:
+tinychat.c:26:13: warning: ‘post_chat’ declared ‘static’ but never defined [-Wunused-function]
+ static void post_chat(int fd, const char*pre_content,char* user, char* topic, char* message);
+             ^
+17:41:17 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+17:41:21 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+17:43:39 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+17:43:52 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+17:46:52 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+17:47:17 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+17:59:09 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+tinychat.c: In function ‘doit’:
+tinychat.c:135:15: warning: unused variable ‘curl_message’ [-Wunused-variable]
+         char* curl_message;
+               ^
+tinychat.c: At top level:
+tinychat.c:26:13: warning: ‘post_chat’ declared ‘static’ but never defined [-Wunused-function]
+ static void post_chat(int fd, const char*pre_content,char* user, char* topic, char* message);
+             ^
+17:59:10 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+17:59:11 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+18:00:26 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+tinychat.c: In function ‘doit’:
+tinychat.c:135:15: warning: unused variable ‘curl_message’ [-Wunused-variable]
+         char* curl_message;
+               ^
+tinychat.c: At top level:
+tinychat.c:26:13: warning: ‘post_chat’ declared ‘static’ but never defined [-Wunused-function]
+ static void post_chat(int fd, const char*pre_content,char* user, char* topic, char* message);
+             ^
+18:00:29 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+18:28:17 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+tinychat.c: In function ‘doit’:
+tinychat.c:151:9: error: too few arguments to function ‘starts_with’
+         }else if(starts_with("/say?user=")){
+         ^
+In file included from tinychat.c:13:0:
+more_string.h:20:5: note: declared here
+ int starts_with(char *starts, char *s);
+     ^
+tinychat.c:152:10: warning: implicit declaration of function ‘get_dictionary’ [-Wimplicit-function-declaration]
+          char* user = get_dictionary(query,"user");
+          ^
+tinychat.c:152:23: warning: initialization makes pointer from integer without a cast [enabled by default]
+          char* user = get_dictionary(query,"user");
+                       ^
+tinychat.c:153:24: warning: initialization makes pointer from integer without a cast [enabled by default]
+          char* topic = get_dictionary(query,"topic");
+                        ^
+tinychat.c:154:26: warning: initialization makes pointer from integer without a cast [enabled by default]
+          char* message = get_dictionary(query,"content");
+                          ^
+tinychat.c:155:31: warning: initialization makes pointer from integer without a cast [enabled by default]
+          char* old_message =  get_dictionary(conversations,topic);
+                               ^
+tinychat.c:156:10: warning: implicit declaration of function ‘append_string’ [-Wimplicit-function-declaration]
+          char* new_conv = append_string(old_message,user,": ",message,"\r\n<br>",NULL);
+          ^
+tinychat.c:156:27: warning: initialization makes pointer from integer without a cast [enabled by default]
+          char* new_conv = append_string(old_message,user,": ",message,"\r\n<br>",NULL);
+                           ^
+tinychat.c:157:10: warning: implicit declaration of function ‘set_dictionary’ [-Wimplicit-function-declaration]
+          set_dictionary(conversations,new_conv);
+          ^
+tinychat.c:135:15: warning: unused variable ‘curl_message’ [-Wunused-variable]
+         char* curl_message;
+               ^
+tinychat.c: At top level:
+tinychat.c:26:13: warning: ‘post_chat’ declared ‘static’ but never defined [-Wunused-function]
+ static void post_chat(int fd, const char*pre_content,char* user, char* topic, char* message);
+             ^
+make: *** [tinychat] Error 1
+18:28:34 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+tinychat.c: In function ‘doit’:
+tinychat.c:152:10: warning: implicit declaration of function ‘get_dictionary’ [-Wimplicit-function-declaration]
+          char* user = get_dictionary(query,"user");
+          ^
+tinychat.c:152:23: warning: initialization makes pointer from integer without a cast [enabled by default]
+          char* user = get_dictionary(query,"user");
+                       ^
+tinychat.c:153:24: warning: initialization makes pointer from integer without a cast [enabled by default]
+          char* topic = get_dictionary(query,"topic");
+                        ^
+tinychat.c:154:26: warning: initialization makes pointer from integer without a cast [enabled by default]
+          char* message = get_dictionary(query,"content");
+                          ^
+tinychat.c:155:31: warning: initialization makes pointer from integer without a cast [enabled by default]
+          char* old_message =  get_dictionary(conversations,topic);
+                               ^
+tinychat.c:156:10: warning: implicit declaration of function ‘append_string’ [-Wimplicit-function-declaration]
+          char* new_conv = append_string(old_message,user,": ",message,"\r\n<br>",NULL);
+          ^
+tinychat.c:156:27: warning: initialization makes pointer from integer without a cast [enabled by default]
+          char* new_conv = append_string(old_message,user,": ",message,"\r\n<br>",NULL);
+                           ^
+tinychat.c:157:10: warning: implicit declaration of function ‘set_dictionary’ [-Wimplicit-function-declaration]
+          set_dictionary(conversations,new_conv);
+          ^
+tinychat.c:135:15: warning: unused variable ‘curl_message’ [-Wunused-variable]
+         char* curl_message;
+               ^
+tinychat.c: At top level:
+tinychat.c:26:13: warning: ‘post_chat’ declared ‘static’ but never defined [-Wunused-function]
+ static void post_chat(int fd, const char*pre_content,char* user, char* topic, char* message);
+             ^
+/tmp/ccUu74G9.o: In function `doit':
+/home/adair/CS4400/assign7/servlab-handout/tinychat.c:152: undefined reference to `get_dictionary'
+/home/adair/CS4400/assign7/servlab-handout/tinychat.c:153: undefined reference to `get_dictionary'
+/home/adair/CS4400/assign7/servlab-handout/tinychat.c:154: undefined reference to `get_dictionary'
+/home/adair/CS4400/assign7/servlab-handout/tinychat.c:155: undefined reference to `get_dictionary'
+/home/adair/CS4400/assign7/servlab-handout/tinychat.c:156: undefined reference to `append_string'
+/home/adair/CS4400/assign7/servlab-handout/tinychat.c:157: undefined reference to `set_dictionary'
+collect2: error: ld returned 1 exit status
+make: *** [tinychat] Error 1
+18:29:19 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+tinychat.c: In function ‘doit’:
+tinychat.c:156:10: warning: implicit declaration of function ‘append_string’ [-Wimplicit-function-declaration]
+          char* new_conv = append_string(old_message,user,": ",message,"\r\n<br>",NULL);
+          ^
+tinychat.c:156:27: warning: initialization makes pointer from integer without a cast [enabled by default]
+          char* new_conv = append_string(old_message,user,": ",message,"\r\n<br>",NULL);
+                           ^
+tinychat.c:157:10: error: too few arguments to function ‘dictionary_set’
+          dictionary_set(conversations,new_conv);
+          ^
+In file included from tinychat.c:12:0:
+dictionary.h:32:6: note: declared here
+ void dictionary_set(dictionary_t *d, const char *key, void *value);
+      ^
+tinychat.c:135:15: warning: unused variable ‘curl_message’ [-Wunused-variable]
+         char* curl_message;
+               ^
+tinychat.c: At top level:
+tinychat.c:26:13: warning: ‘post_chat’ declared ‘static’ but never defined [-Wunused-function]
+ static void post_chat(int fd, const char*pre_content,char* user, char* topic, char* message);
+             ^
+make: *** [tinychat] Error 1
+18:29:36 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+tinychat.c: In function ‘doit’:
+tinychat.c:156:10: warning: implicit declaration of function ‘append_string’ [-Wimplicit-function-declaration]
+          char* new_conv = append_string(old_message,user,": ",message,"\r\n<br>",NULL);
+          ^
+tinychat.c:156:27: warning: initialization makes pointer from integer without a cast [enabled by default]
+          char* new_conv = append_string(old_message,user,": ",message,"\r\n<br>",NULL);
+                           ^
+tinychat.c:135:15: warning: unused variable ‘curl_message’ [-Wunused-variable]
+         char* curl_message;
+               ^
+tinychat.c: At top level:
+tinychat.c:26:13: warning: ‘post_chat’ declared ‘static’ but never defined [-Wunused-function]
+ static void post_chat(int fd, const char*pre_content,char* user, char* topic, char* message);
+             ^
+/tmp/ccpqNeTf.o: In function `doit':
+/home/adair/CS4400/assign7/servlab-handout/tinychat.c:156: undefined reference to `append_string'
+collect2: error: ld returned 1 exit status
+make: *** [tinychat] Error 1
+18:29:44 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+cc -O2 -g -Wall -o tinychat tinychat.c dictionary.c more_string.c csapp.c -pthread
+tinychat.c: In function ‘doit’:
+tinychat.c:135:15: warning: unused variable ‘curl_message’ [-Wunused-variable]
+         char* curl_message;
+               ^
+tinychat.c: At top level:
+tinychat.c:26:13: warning: ‘post_chat’ declared ‘static’ but never defined [-Wunused-function]
+ static void post_chat(int fd, const char*pre_content,char* user, char* topic, char* message);
+             ^
+19:15:24 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:15:59 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:16:01 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:16:20 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.
+19:20:01 **** Incremental Build of configuration Debug for project servlab-handout ****
+make all 
+make: Nothing to be done for `all'.

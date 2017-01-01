@@ -1,0 +1,7 @@
+12:28:42 **** Incremental Build of configuration Debug for project PERFLAB-HANDOUT ****
+make all 
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+
+12:28:45 Build Finished (took 2s.818ms)
+

@@ -1,0 +1,10 @@
+22:39:30 **** Incremental Build of configuration Debug for project malloclab-handout ****
+make all 
+gcc -O2 -g -Wall   -c -o mm.o mm.c
+mm.c:127:14: warning: ‘find_first_fit’ defined but not used [-Wunused-function]
+ static void* find_first_fit(size_t size){
+              ^
+gcc -O2 -g -Wall -o mdriver mdriver.o mm.o memlib.o pagemap.o fsecs.o fcyc.o clock.o ftimer.o -lm
+
+22:39:30 Build Finished (took 109ms)
+

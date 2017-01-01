@@ -1,7 +1,6 @@
-23:35:37 **** Build of configuration Debug for project MatchLab ****
-make all 
-gcc -std=c11 -g -Wall  -c matchlab.c
-gcc -std=c11 -g -Wall  matchlab.o -o matchlab
+19:16:00 **** Clean-only build of configuration Debug for project MatchLab ****
+make clean 
+rm *.o matchlab
 
-23:35:37 Build Finished (took 167ms)
+19:16:07 Build Finished (took 7s.102ms)
 
